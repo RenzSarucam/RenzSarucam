@@ -4,7 +4,7 @@
 <h1 align="center">Hi 👋, I'm Renz Carljansen Sarucam</h1>
 <h3 align="center">UI/UX Designer | Web Developer | Web Designer</h3>
 
-- 👯 I’m looking to collaborate on **UI/UX Project **
+- 👯 I’m looking to collaborate on **UI/UX Project**
 
 - 🤝 I’m looking for help with **ReactJs, React Native & NextJs**
 
