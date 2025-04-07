@@ -6,7 +6,7 @@
 
 - 👯 I’m looking to collaborate on **UI/UX Project**
 
-- 🤝 I’m looking for help with **ReactJs, React Native & NextJs**
+- 🤝 I’m looking for help with **ReactJs & React Native**
 
 - 💬 Ask me about **UI/UX**
 
