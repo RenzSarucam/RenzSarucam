@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="250" width="500" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXhvbnhwNm40cWxxeXZldnZ4amE0dHc4cWFpbjMxa3F6YWxyNzg5OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LQHvkbIzTSLe/giphy.gif"  />
+  <img height="250" width="500" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW1zMmhrenpkbHdvM3hpOW55bGFkanVvbGNubmwwMjJ0MTFnY2YwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RDen1HUlEWp6OKS15E/giphy.gif"  />
 </div>
 <h1 align="center">Hi 👋, I'm Renz Carljansen Sarucam</h1>
 <h3 align="center">UI/UX Designer | Web Developer | Web Designer</h3>
