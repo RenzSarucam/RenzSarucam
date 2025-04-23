@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="250" width="500" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWQ3ZmliazV5anQ0dTlld2hlcWQ5NmZ2NG8yYTVrcG45d2Noa3ZqaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" />
+
   <img height="250" width="500" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmljdTJxMjEzdjhla2Y2aXdkbmxqM29iNHBudjFuM2R2cG83MDN1biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" />
 </div>
 <h1 align="center">Hi 👋, I'm Renz Carljansen Sarucam</h1>
