@@ -1,120 +1,189 @@
-<!-- ===== HEADER BANNER (tech / circuit vibe) ===== -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Renz%20Carljansen%20Sarucam&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Research%20%26%20Development%20Engineer%20%7C%20Web%20Developer%20%7C%20UI%2FUX%20Designer&descSize=16&descAlignY=55&animation=fadeIn" width="100%" />
-</div>
+<h1 align="center">
+  Hi 👋 I'm <span style="color:#00F5FF;">Renz Carljansen Sarucam</span>
+</h1>
 
-<!-- ===== ANIMATED TYPING ===== -->
-<div align="center">
-  <a href="https://github.com/YOUR-USERNAME">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=600&lines=R%26D+Engineer+%40+DSG+Son's+Group+Inc.;Laravel+%2B+React+%2B+Docker;UI%2FUX+Designer+turned+Full-Stack;Building+internal+tools+that+ship" alt="Typing SVG" />
-  </a>
-</div>
+<h3 align="center">
+🚀 Research & Development Engineer • Full Stack Web Developer • UI/UX Designer
+</h3>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="20" />
-  <b>Davao City, Philippines</b>
-  &nbsp;•&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&label=Profile%20Views&color=00d9ff&style=flat-square" alt="profile views" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=Research+%26+Development+Engineer;Laravel+Developer;React+%26+Next.js+Developer;UI%2FUX+Designer;DevOps+Learner;Always+Learning+New+Technologies" />
+
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="30" /> About Me
+# 💫 About Me
 
-```typescript
-const renz = {
-  role: "Junior R&D Engineer",
-  company: "DSG Son's Group Inc. / GaisanoMalls",
-  location: "Davao City, PH",
-  currentFocus: ["Laravel", "Inertia + React", "Docker", "CI/CD"],
-  collaborateOn: "UI/UX Projects",
-  learning: ["React Native", "DevOps", "System Architecture"],
-  askMeAbout: ["UI/UX", "Web Design", "Laravel Deployments"],
-  funFact: "I think I am funny",
-};
+<img align="right" width="350" src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif">
+
+💻 Research & Development Engineer
+
+🎨 Passionate UI/UX Designer
+
+🌐 Full Stack Web Developer
+
+⚡ Currently exploring
+
+- AI Integration
+- DevOps
+- Cloud Computing
+- Docker
+- Laravel
+- React
+- Next.js
+
+🤝 Looking to collaborate on
+
+- UI/UX Projects
+- Open Source Projects
+- Laravel Projects
+
+🌱 Currently Learning
+
+- React Native
+- Kubernetes
+- CI/CD
+- Cloudflare Zero Trust
+
+💬 Ask me about
+
+- UI/UX
+- Laravel
+- React
+- Web Design
+
+📫 Email
+
+```
+renzcarljansen@gmail.com
 ```
 
-- 👨‍💻 &nbsp;Nagtatrabaho ako sa **production Laravel apps** — Docker deploys, GitHub Actions CI/CD, at Gitea
-- 🎨 &nbsp;Nagsimula sa **UI/UX design**, ngayon full-stack na
-- 👯 &nbsp;Open to collaborate on **UI/UX Projects**
-- 🤝 &nbsp;Looking for help with **React Native**
-- 📫 &nbsp;Reach me at **renzcarljansen@gmail.com**
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/renz-carljansen-sarucam-195897314">
+<img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+
+<a href="https://www.facebook.com/renz134542770">
+<img src="https://skillicons.dev/icons?i=facebook" />
+</a>
+
+<a href="https://www.instagram.com/1amreenz">
+<img src="https://skillicons.dev/icons?i=instagram" />
+</a>
+
+<a href="https://dribbble.com/Koushuu11">
+<img src="https://cdn.simpleicons.org/dribbble/EA4C89" width="48"/>
+</a>
+
+<a href="https://www.behance.net/renzcasarucam1">
+<img src="https://cdn.simpleicons.org/behance/1769FF" width="48"/>
+</a>
+
+</p>
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" /> Tech Stack
+# 💻 Tech Stack
 
 <div align="center">
 
-### Languages
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img src="https://skillicons.dev/icons?i=html,css,js,php,python,java,c,cpp"/>
 
-### Frameworks & Libraries
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+<br>
 
-### Databases & DevOps
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+<img src="https://skillicons.dev/icons?i=laravel,react,nextjs,vue,nodejs,tailwind,firebase,django"/>
 
-### Design & Hardware
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/Adobe_XD-FF61F6?style=for-the-badge&logo=adobexd&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+<br>
 
-</div>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,git,github,vscode,figma"/>
 
----
+<br>
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28" /> GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR-USERNAME&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" />
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28" /> Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/renz-carljansen-sarucam-195897314/)
-[![Behance](https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/renzcasarucam1)
-[![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white)](https://dribbble.com/Koushuu11)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/1amreenz/)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/renz134542770/)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:renzcarljansen@gmail.com)
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,bash,arduino,androidstudio"/>
 
 </div>
 
 ---
 
-<!-- ===== FOOTER BANNER ===== -->
+# 🚀 Currently Working On
+
+✨ Enterprise Laravel Applications
+
+☁️ Cloudflare Tunnel
+
+🐳 Docker Development
+
+🤖 AI Integration
+
+📱 React Native
+
+🖥️ DevOps Automation
+
+---
+
+# 📊 GitHub Stats
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=140&section=footer" width="100%" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 📈 Most Used Languages
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🏆 GitHub Trophy
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=algolia&no-frame=true&row=2&column=4"/>
+
+</div>
+
+---
+
+# ⚙ Visitor Counter
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile+Views&color=00F5FF&style=for-the-badge"/>
+
+</div>
+
+---
+
+# 🔥 Quote
+
+<div align="center">
+
+> **"Code. Design. Innovate. Repeat."**
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0f2027,50:203a43,100:2c5364&section=footer"/>
+
 </div>
