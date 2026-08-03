@@ -134,30 +134,6 @@ Looking For:
 
 ---
 
-# 🌐 Connect With Me
-
-<p align="center">
-
-<a href="https://www.linkedin.com/in/renz-carljansen-sarucam-195897314/">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="https://www.instagram.com/1amreenz/">
-<img src="https://skillicons.dev/icons?i=instagram"/>
-</a>
-
-<a href="https://dribbble.com/Koushuu11">
-<img width="48" src="https://cdn.simpleicons.org/dribbble/EA4C89"/>
-</a>
-
-<a href="https://www.behance.net/renzcasarucam1">
-<img width="48" src="https://cdn.simpleicons.org/behance/1769FF"/>
-</a>
-
-</p>
-
----
-
 # 📬 Contact
 
 📧 **Email**
