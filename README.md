@@ -1,14 +1,14 @@
 <div align="center">
 
-<img height="250" width="500" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmljdTJxMjEzdjhla2Y2aXdkbmxqM29iNHBudjFuM2R2cG83MDN1biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif"/>
+<img src="assets/banner.png" width="100%" alt="Banner"/>
 
-# Hi 👋, I'm Renz Carljansen Sarucam
+# Hi 👋 I'm **Renz Carljansen Sarucam**
 
 ### 🚀 Research & Development Engineer | Full Stack Web Developer | UI/UX Designer
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=Research+%26+Development+Engineer;Laravel+Developer;React+Developer;Next.js+Developer;UI%2FUX+Designer;DevOps+Enthusiast;Always+Learning+New+Technologies"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=25&duration=3000&pause=1000&center=true&vCenter=true&color=00D9FF&width=800&lines=Research+%26+Development+Engineer;Laravel+Developer;React+Developer;Next.js+Developer;DevOps+Enthusiast;AI+Explorer;Always+Learning+New+Technologies" />
 
-<img src="https://komarev.com/ghpvc/?username=RenzSarucam&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=RenzSarucam&style=for-the-badge&color=blue"/>
 
 </div>
 
@@ -16,94 +16,141 @@
 
 # 👨‍💻 About Me
 
-- 🔭 Currently working as **Research & Development Engineer**
-- 👯 Looking to collaborate on **Any Projects Web or Design**
-- 🌱 Currently learning **React Native, Kubernetes, AI, Cloud Computing & DevOps**
-- 💬 Ask me about **Laravel, React, Next.js, UI/UX & Web Development**
-- 📫 Email: **renzcarljansen@gmail.com**
-- 📄 Portfolio: **https://renzcarljansensarucam.vercel.app/**
-- ⚡ Fun fact: **I think I am funny 😆**
+```yaml
+Name: Renz Carljansen Sarucam
+
+Role:
+  - Research & Development Engineer
+  - Full Stack Web Developer
+  - UI/UX Designer
+
+Specialization:
+  - Enterprise Systems
+  - Web Applications
+  - Artificial Intelligence
+  - DevOps
+  - UI/UX
+
+Current Focus:
+  - Laravel
+  - React
+  - Docker
+  - Cloudflare
+  - AI Integration
+
+Currently Learning:
+  - React Native
+  - Kubernetes
+  - CI/CD
+  - Cloud Computing
+```
 
 ---
 
-# 🌐 Connect With Me
+# 🚀 Current Technologies
 
-<p align="left">
+<div align="center">
 
-<a href="https://www.linkedin.com/in/renz-carljansen-sarucam-195897314/" target="_blank">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
+| Backend | Frontend | DevOps | Database |
+|---------|----------|----------|-----------|
+| Laravel | React | Docker | MySQL |
+| PHP | Next.js | Linux | PostgreSQL |
+| Firebase | Vue | GitHub Actions | MongoDB |
 
-<a href="https://www.instagram.com/1amreenz/" target="_blank">
-<img src="https://skillicons.dev/icons?i=instagram"/>
-</a>
-
-<a href="https://dribbble.com/Koushuu11" target="_blank">
-<img width="48" src="https://cdn.simpleicons.org/dribbble/EA4C89"/>
-</a>
-
-<a href="https://www.behance.net/renzcasarucam1" target="_blank">
-<img width="48" src="https://cdn.simpleicons.org/behance/1769FF"/>
-</a>
-
-</p>
+</div>
 
 ---
 
 # 💻 Tech Stack
 
-### 🚀 Programming Languages
+### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,php,python,java,c,cpp"/>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,php,python,java,c"/>
+
 </p>
 
-### ⚛️ Frontend Development
+### Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,bootstrap,vite"/>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,bootstrap"/>
+
 </p>
 
-### 🛠 Backend Development
+### Backend
 
 <p>
+
 <img src="https://skillicons.dev/icons?i=laravel,nodejs,django,firebase"/>
+
 </p>
 
-### 🗄️ Database
+### Database
 
 <p>
+
 <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb"/>
+
 </p>
 
-### ☁️ DevOps & Cloud
+### DevOps
 
 <p>
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,bash,cloudflare"/>
+
+<img src="https://skillicons.dev/icons?i=docker,linux,bash,git,github,cloudflare"/>
+
 </p>
 
-### 🎨 UI / UX & Design
+### Design
 
 <p>
-<img src="https://skillicons.dev/icons?i=figma,photoshop"/>
-</p>
 
-### 🛠 IDE & Tools
+<img src="https://skillicons.dev/icons?i=figma,ps"/>
 
-<p>
-<img src="https://skillicons.dev/icons?i=vscode,postman,npm"/>
 </p>
 
 ---
 
-# 🚀 Currently Working On
+# 📊 GitHub Statistics
 
-- 🏢 Enterprise Laravel Applications
-- ⚛️ React & Next.js
-- 🤖 AI Integration
-- ☁️ Cloudflare Tunnel
-- 🐳 Docker Development
-- ⚙️ DevOps Automation
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=RenzSarucam&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=RenzSarucam&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenzSarucam&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🏆 GitHub Trophy
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=RenzSarucam&theme=algolia&margin-w=15&margin-h=15&column=4&no-frame=true"/>
+
+</div>
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description | Tech |
+|----------|-------------|------|
+| **ReOrderPro** | Procurement Management System | Laravel |
+| **E-JO** | Enterprise Job Order System | Laravel |
+| **Portfolio Website** | Personal Portfolio | Next.js |
+| **AI Assistant** | AI Support System | OpenAI API |
 
 ---
 
@@ -113,76 +160,47 @@
 - Kubernetes
 - Artificial Intelligence
 - Cloud Computing
-- CI/CD Pipeline
-- System Design
+- DevOps Automation
 
 ---
 
-# 📊 GitHub Statistics
+# 🌐 Connect With Me
 
 <p align="center">
 
-<img height="170" src="https://streak-stats.demolab.com?user=RenzSarucam&theme=tokyonight&hide_border=true"/>
+<a href="https://linkedin.com/in/renz-carljansen-sarucam-195897314">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
+
+<a href="https://instagram.com/1amreenz">
+<img src="https://skillicons.dev/icons?i=instagram"/>
+</a>
+
+<a href="https://behance.net/renzcasarucam1">
+<img width="48" src="https://cdn.simpleicons.org/behance"/>
+</a>
+
+<a href="https://dribbble.com/Koushuu11">
+<img width="48" src="https://cdn.simpleicons.org/dribbble"/>
+</a>
 
 </p>
 
-
 ---
 
-# 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RenzSarucam&theme=tokyo-night&hide_border=true"/>
-
-</p>
-
----
-
-
-# ⚡ Fun Facts
-
-```text
-💡 I enjoy solving real-world problems through technology.
-
-🎨 I love creating clean and modern UI/UX designs.
-
-🚀 Continuous learning is my passion.
-
-🤖 Exploring AI and Automation.
-
-☕ Coffee + Music + Coding = Productive Day.
-
-🌙 I enjoy late-night coding sessions.
-```
-
----
-
-# 📬 Contact Me
+# 📬 Contact
 
 📧 **Email**
 
-**renzcarljansen@gmail.com**
+renzcarljansen@gmail.com
+
+🌐 **Portfolio**
+
+https://renzcarljansensarucam.vercel.app/
 
 💼 **LinkedIn**
 
 https://linkedin.com/in/renz-carljansen-sarucam-195897314
-
-📱 **Facebook**
-
-https://facebook.com/renz134542770
-
-📸 **Instagram**
-
-https://instagram.com/1amreenz
-
-🎨 **Behance**
-
-https://behance.net/renzcasarucam1
-
-🏀 **Dribbble**
-
-https://dribbble.com/Koushuu11
 
 ---
 
@@ -194,8 +212,8 @@ https://dribbble.com/Koushuu11
 
 <div align="center">
 
-## ⭐ Thanks for visiting my GitHub Profile!
+### ⭐ Thanks for visiting my GitHub profile!
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:020024,25:0047AB,60:0077FF,100:00E5FF&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&section=footer"/>
 
 </div>
