@@ -22,6 +22,7 @@ Name: Renz Carljansen Sarucam
 Role:
   - Research & Development Engineer
   - Full Stack Web Developer
+  - DevOps Engineer 
   - UI/UX Designer
 
 Current Focus:
