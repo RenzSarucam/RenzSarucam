@@ -4,7 +4,7 @@
 
 # 👋 Hi, I'm Renz Carljansen Sarucam
 
-### 🚀 Research & Development Engineer • Full Stack Web Developer • UI/UX Designer
+### 🚀 Research & Development Engineer • Full Stack Developer • DevOps Engineer
 
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=900&color=00E5FF&lines=Research+%26+Development+Engineer;Laravel+Developer;React+Developer;Next.js+Developer;DevOps+Enthusiast;AI+Explorer;Always+Learning+New+Technologies" />
 
