@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="Renz Sarucam Banner"/>
+<img src="assets/banner1.png" width="100%" alt="Renz Sarucam Banner"/>
 
 # 👋 Hi, I'm Renz Carljansen Sarucam
 
