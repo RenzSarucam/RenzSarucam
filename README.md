@@ -33,11 +33,9 @@ Current Focus:
   - Docker & DevOps
 
 Currently Learning:
-  - React Native
   - Kubernetes
   - Artificial Intelligence
   - Cloud Computing
-  - CI/CD
 
 Looking For:
   - Open Source Collaboration
