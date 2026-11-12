@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" class="art" role="img" aria-labelledby="t">
+<title id="t">Renz toolkit: Laravel, AI integration, DevOps automation, research and development, React and Next.js, continuous learning, development tools, and workflow</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg: #f6efe2;
+  --bg-2: #efe5d1;
+  --paper: #fffaf1;
+  --ink: #1b2440;
+  --ink-2: #4b5470;
+  --ink-3: #61687e;
+  --line: #e2d4b9;
+  --edge: #1b2440;
+  --edge-soft: #d8c8aa;
+  --verm: #d2482b;
+  --verm-ink: #a3341b;
+  --amber: #efa92c;
+  --amber-soft: #fbe3b0;
+  --amber-ink: #85570a;
+  --teal: #2a9d8f;
+  --teal-soft: #cdeae3;
+  --teal-ink: #17675d;
+  --lav: #8d7de0;
+  --lav-soft: #e3ddfb;
+  --lav-ink: #5546b0;
+  --verm-soft: #f9d6c8;
+  --link: #b13a1f;
+  --focus: #d2482b;
+  --day-1: #fbe0a8; --day-1-ink: #1b2440;
+  --day-2: #fff3da; --day-2-ink: #1b2440;
+  --day-3: #cdeae3; --day-3-ink: #1b2440;
+  --day-4: #f6c7b3; --day-4-ink: #1b2440;
+  --day-5: #1b2440; --day-5-ink: #f4ecdc;
+  /* the drawn room */
+  --s-wall: #f2e1c3;
+  --s-wall-2: #e6cfa6;
+  --s-out: #1b2440;
+  --s-sky-a: #9fd2dc;
+  --s-sky-b: #f8dfb4;
+  --s-hill: #8fc2b3;
+  --s-hill-2: #6fa999;
+  --s-frame: #b4744a;
+  --s-frame-2: #94593a;
+  --s-desk: #cf9258;
+  --s-desk-2: #ad6f3f;
+  --s-desk-3: #e2ab73;
+  --s-floor: #c7986c;
+  --s-floor-2: #b5875c;
+  --s-rug: #2a9d8f;
+  --s-bezel: #1d2640;
+  --s-screen: #fffaf1;
+  --s-ui-1: #f1e6d2;
+  --s-ui-2: #f6dfb0;
+  --s-ui-3: #e8dcc6;
+  --s-ui-line: #c8b796;
+  --s-code: #1d2640;
+  --s-paper: #fffdf7;
+  --s-star: #fff2c4;
+  --s-glow: rgba(255, 196, 92, 0.42);
+  --s-cloud: #fffaf0;
+  --s-plant: #4f9b6c;
+  --s-plant-2: #3a7d55;
+  --s-shadow: rgba(27, 36, 64, 0.16);}
+.night{display:none}
+/* scene drawing classes */
+.scene-svg .o, .art .o { stroke: var(--s-out); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+.scene-svg .o2, .art .o2 { stroke: var(--s-out); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.f-wall { fill: var(--s-wall); } .f-wall2 { fill: var(--s-wall-2); }
+.f-frame { fill: var(--s-frame); } .f-frame2 { fill: var(--s-frame-2); }
+.f-desk { fill: var(--s-desk); } .f-desk2 { fill: var(--s-desk-2); } .f-desk3 { fill: var(--s-desk-3); }
+.f-floor { fill: var(--s-floor); } .f-floor2 { fill: var(--s-floor-2); } .f-rug { fill: var(--s-rug); }
+.f-bezel { fill: var(--s-bezel); } .f-screen { fill: var(--s-screen); }
+.f-ui1 { fill: var(--s-ui-1); } .f-ui2 { fill: var(--s-ui-2); } .f-ui3 { fill: var(--s-ui-3); } .f-uil { fill: var(--s-ui-line); }
+.f-code { fill: var(--s-code); } .f-paper { fill: var(--s-paper); }
+.f-hill { fill: var(--s-hill); } .f-hill2 { fill: var(--s-hill-2); }
+.f-star { fill: var(--s-star); } .f-cloud { fill: var(--s-cloud); }
+.f-plant { fill: var(--s-plant); } .f-plant2 { fill: var(--s-plant-2); }
+.f-amber { fill: var(--amber); } .f-verm { fill: var(--verm); } .f-teal { fill: var(--teal); } .f-lav { fill: var(--lav); }
+.f-amber-soft { fill: var(--amber-soft); } .f-teal-soft { fill: var(--teal-soft); } .f-lav-soft { fill: var(--lav-soft); }
+.f-ink { fill: var(--ink); } .f-ink2 { fill: var(--ink-2); } .f-bg { fill: var(--bg); } .f-card { fill: var(--paper); }
+.f-out { fill: var(--s-out); } .f-glow { fill: var(--s-glow); } .f-shadow { fill: var(--s-shadow); }
+.s-out { stroke: var(--s-out); } .s-amber { stroke: var(--amber); } .s-star { stroke: var(--s-star); } .s-teal { stroke: var(--teal); } .s-verm { stroke: var(--verm); } .s-uil { stroke: var(--s-ui-line); } .s-ink2 { stroke: var(--ink-2); } .s-ink { stroke: var(--ink); } .s-lav { stroke: var(--lav); }
+.sky-a { stop-color: var(--s-sky-a); } .sky-b { stop-color: var(--s-sky-b); }
+.nf { fill: none; }
+/* motion */
+@keyframes sway { 0%, 100% { transform: rotate(-1.6deg); } 50% { transform: rotate(1.6deg); } }
+@keyframes glow {
+  0%, 22%, 100% { box-shadow: 0 0.35cqw 0 var(--s-shadow); border-color: var(--s-out); }
+  6%, 16% { box-shadow: 0 0 0 0.35cqw var(--amber), 0 0.6cqw 2.2cqw 0.2cqw var(--s-glow); }
+}
+@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+@keyframes steam { 0% { transform: translateY(6px); opacity: 0; } 30% { opacity: 0.8; } 100% { transform: translateY(-26px); opacity: 0; } }
+@keyframes dot { 0%, 60%, 100% { transform: translateY(0); } 30% { transform: translateY(-4px); } }
+@keyframes tick { to { transform: rotate(360deg); } }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+@keyframes lampglow { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.75; } }
+@keyframes rise { 0% { transform: translateY(8px); opacity: 0; } 12%, 88% { transform: translateY(0); opacity: 1; } 100% { opacity: 0; } }
+.a-blink { animation: blink 1.1s steps(1) infinite; }
+.a-twinkle { animation: twinkle 3.2s ease-in-out infinite; }
+.a-steam { animation: steam 3.6s ease-out infinite; transform-box: fill-box; }
+.a-dot { animation: dot 1.4s ease-in-out infinite; transform-box: fill-box; }
+.a-tick { animation: tick 60s linear infinite; transform-box: view-box; }
+.a-tick-slow { animation: tick 720s linear infinite; transform-box: view-box; }
+.a-pulse { animation: pulse 2.4s ease-in-out infinite; }
+.a-lamp { animation: lampglow 5s ease-in-out infinite; }
+.a-rise { animation: rise 9s ease-in-out infinite; transform-box: fill-box; }
+.t{font-family:ui-rounded,'SF Pro Rounded','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'PingFang SC','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC',sans-serif}.m{font-family:ui-monospace,'Cascadia Mono','SF Mono',Menlo,Consolas,monospace}
+.ink{fill:var(--ink)}.ink2{fill:var(--ink-2)}.ink3{fill:var(--ink-3)}.verm{fill:var(--verm)}.lavink{fill:var(--lav-ink)}
+.card{fill:var(--paper);stroke:var(--s-out);stroke-width:2.5}
+.tile{fill:var(--paper);stroke:var(--edge);stroke-width:2.5}
+.edge{fill:var(--edge)}
+.sway{animation:sway 6s ease-in-out infinite}
+.glowc{animation:glowc 12s ease-in-out infinite;stroke:var(--amber);stroke-width:7;fill:none;opacity:0}
+@keyframes glowc{0%,4%,22%,100%{opacity:0}8%,16%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="2" y="2" width="1196" height="596" rx="30" style="fill:var(--bg);stroke:var(--edge);stroke-width:3"/>
+<g transform="translate(30 30)"><circle cx="26" cy="26" r="26" class="f-lav-soft"/><path d="M26 26L11 16M26 26L41 14M26 26L41 38M26 26L13 38M26 26L26 8" class="nf s-out" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/><circle cx="26" cy="26" r="8" class="f-amber o2"/><circle cx="11" cy="16" r="4.5" class="f-lav o2"/><circle cx="41" cy="14" r="4.5" class="f-teal o2"/><circle cx="41" cy="38" r="4.5" class="f-verm o2"/><circle cx="13" cy="38" r="4.5" class="f-teal o2"/></g>
+<text x="96" y="72" class="t ink" font-size="44" font-weight="800" letter-spacing="-1">My Ecosystem</text>
+<g><rect x="960" y="34" width="210" height="50" rx="25" class="f-amber" style="stroke:var(--edge);stroke-width:2.5"/><text x="1065" y="66" text-anchor="middle" class="t" font-size="21" font-weight="800" style="fill:#1b2440">My projects →</text></g>
+<g>
+      <rect x="30" y="117" width="270" height="226" rx="20" class="edge"/>
+      <rect x="30" y="112" width="270" height="226" rx="20" class="tile"/>
+      <rect x="40" y="122" width="250" height="160" rx="13" style="fill:var(--amber-soft)"/>
+      <svg x="40" y="122" width="250" height="160" viewBox="0 0 200 128" class="art" aria-hidden="true" focusable="false">
+  <rect x="14" y="12" width="172" height="104" rx="9" class="f-screen o2"/><path d="M23 12h154a9 9 0 0 1 9 9v7h-172v-7a9 9 0 0 1 9-9z" class="f-ui1"/><rect x="14" y="12" width="172" height="104" rx="9" class="nf o2"/><circle cx="23" cy="20" r="2.4" class="f-verm"/><circle cx="30" cy="20" r="2.4" class="f-amber"/><circle cx="37" cy="20" r="2.4" class="f-teal"/>
+  <text x="100" y="24" text-anchor="middle" class="f-ink2" font-family="ui-rounded,'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="800">Laravel</text>
+  <rect x="15" y="28" width="36" height="87" class="f-ui1"/>
+  <rect x="20" y="34" width="26" height="7" rx="3.5" class="f-amber" opacity=".75"/><rect x="20" y="46" width="22" height="5" rx="2.5" class="f-uil"/><rect x="20" y="55" width="25" height="5" rx="2.5" class="f-uil"/><rect x="20" y="64" width="19" height="5" rx="2.5" class="f-uil"/>
+  <circle cx="26" cy="104" r="6" class="f-lav"/>
+  <rect x="104" y="34" width="42" height="12" rx="6" class="f-ui2"/>
+  <rect x="58" y="52" width="70" height="18" rx="7" class="f-ui3"/><rect x="63" y="57" width="52" height="3.5" rx="1.75" class="f-uil"/><rect x="63" y="63" width="36" height="3.5" rx="1.75" class="f-uil"/>
+  <rect x="58" y="76" width="88" height="24" rx="5" class="f-code"/><rect x="63" y="81" width="14" height="3.5" rx="1.75" class="f-teal"/><rect x="80" y="81" width="26" height="3.5" rx="1.75" class="f-amber"/><rect x="67" y="87" width="40" height="3.5" rx="1.75" class="f-star" opacity=".8"/><rect x="63" y="93" width="22" height="3.5" rx="1.75" class="f-verm"/>
+  <rect x="57" y="104" width="90" height="8" rx="4" class="f-card s-uil" stroke-width="1"/><rect x="92" y="105.5" width="1.6" height="5" rx="0.5" class="f-verm a-blink"/>
+  <rect x="150" y="28" width="35" height="87" class="f-ui1"/><rect x="154" y="33" width="27" height="44" rx="2" class="f-paper"/><rect x="157" y="38" width="21" height="2" rx="1" class="f-uil"/><rect x="157" y="43" width="21" height="2" rx="1" class="f-uil"/><rect x="157" y="48" width="21" height="2" rx="1" class="f-uil"/><rect x="157" y="53" width="21" height="2" rx="1" class="f-uil"/><rect x="157" y="58" width="21" height="2" rx="1" class="f-uil"/><rect x="157" y="63" width="21" height="2" rx="1" class="f-uil"/><rect x="157" y="68" width="21" height="2" rx="1" class="f-uil"/><rect x="156" y="42" width="20" height="3.5" rx="0.5" class="f-amber" opacity=".55"/>
+  <rect x="154" y="82" width="27" height="28" rx="3" class="f-lav-soft"/><rect x="157" y="87" width="16" height="2.5" rx="1" class="f-lav"/><rect x="157" y="93" width="20" height="2" rx="1" class="f-lav" opacity=".55"/>
+</svg>
+      <circle cx="52" cy="311" r="8" style="fill:var(--verm);stroke:var(--edge);stroke-width:2.5"/>
+      <text x="70" y="319" class="t ink" font-size="24" font-weight="800" letter-spacing="-.4">Laravel</text>
+    </g><g>
+      <rect x="320" y="117" width="270" height="226" rx="20" class="edge"/>
+      <rect x="320" y="112" width="270" height="226" rx="20" class="tile"/>
+      <rect x="330" y="122" width="250" height="160" rx="13" style="fill:var(--lav-soft)"/>
+      <svg x="330" y="122" width="250" height="160" viewBox="0 0 200 128" class="art" aria-hidden="true" focusable="false">
+  <rect x="14" y="12" width="172" height="104" rx="9" class="f-screen o2"/><path d="M23 12h154a9 9 0 0 1 9 9v7h-172v-7a9 9 0 0 1 9-9z" class="f-lav-soft"/><rect x="14" y="12" width="172" height="104" rx="9" class="nf o2"/><circle cx="23" cy="20" r="2.4" class="f-verm"/><circle cx="30" cy="20" r="2.4" class="f-amber"/><circle cx="37" cy="20" r="2.4" class="f-teal"/>
+  <circle cx="50" cy="56" r="29" class="f-lav o2"/><path d="M40.14 43.82L51.16 39.76M40.14 43.82L48.26 52.52M51.16 39.76L48.26 52.52M48.26 52.52L61.6 58.32M61.6 58.32L56.96 72.24M56.96 72.24L43.62 67.02M43.62 67.02L48.26 52.52" class="nf s-star" stroke-width="1.59" stroke-linecap="round" opacity=".7"/><path d="M40.14 36.86Q40.14 43.82 47.1 43.82Q40.14 43.82 40.14 50.78Q40.14 43.82 33.18 43.82Q40.14 43.82 40.14 36.86z" class="f-star"/><circle cx="40.14" cy="43.82" r="2.03" class="f-star"/><circle cx="51.16" cy="39.76" r="2.17" class="f-star"/><circle cx="48.26" cy="52.52" r="2.47" class="f-star"/><circle cx="61.6" cy="58.32" r="2.47" class="f-star"/><circle cx="56.96" cy="72.24" r="2.75" class="f-star"/><circle cx="43.62" cy="67.02" r="2.75" class="f-star"/>
+  <rect x="26" y="92" width="48" height="14" rx="7" class="f-amber-soft o2"/><path d="M33 103a4 4 0 0 1 8 0zM37 95v1.5" class="f-amber s-out" stroke-width="1.4"/><rect x="45" y="97" width="22" height="4" rx="2" class="f-amber"/>
+  <rect x="88" y="28" width="88" height="50" rx="5" class="f-paper o2"/>
+  <path d="M94 38h76" class="nf s-uil" stroke-width="1.2"/><path d="M94 46h76" class="nf s-uil" stroke-width="1.2"/><path d="M94 54h76" class="nf s-uil" stroke-width="1.2"/><path d="M94 62h76" class="nf s-uil" stroke-width="1.2"/><path d="M94 70h76" class="nf s-uil" stroke-width="1.2"/>
+  <rect x="96" y="34" width="40" height="3.5" rx="1.75" class="f-lav"/><rect x="96" y="42" width="62" height="2.5" rx="1.25" class="f-ink2" opacity=".55"/><rect x="96" y="50" width="50" height="2.5" rx="1.25" class="f-ink2" opacity=".55"/><rect x="96" y="58" width="58" height="2.5" rx="1.25" class="f-ink2" opacity=".55"/>
+  <rect x="88" y="84" width="88" height="26" rx="7" class="f-card o2"/>
+  <rect x="95" y="90" width="38" height="3.5" rx="1.75" class="f-ink2" opacity=".7"/>
+  <g class="a-pulse"><rect x="95" y="97" width="34" height="9" rx="4.5" class="f-amber o2"/></g><rect x="134" y="97" width="22" height="9" rx="4.5" class="f-card o2"/>
+  <text x="166" y="104" text-anchor="middle" class="f-verm" font-family="ui-rounded,'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="900">?</text>
+</svg>
+      <circle cx="342" cy="311" r="8" style="fill:var(--lav);stroke:var(--edge);stroke-width:2.5"/>
+      <text x="360" y="319" class="t ink" font-size="24" font-weight="800" letter-spacing="-.4">AI Integration</text>
+    </g><g>
+      <rect x="610" y="117" width="270" height="226" rx="20" class="edge"/>
+      <rect x="610" y="112" width="270" height="226" rx="20" class="tile"/>
+      <rect x="620" y="122" width="250" height="160" rx="13" style="fill:var(--teal-soft)"/>
+      <svg x="620" y="122" width="250" height="160" viewBox="0 0 200 128" class="art" aria-hidden="true" focusable="false">
+  <circle cx="54" cy="64" r="38" class="f-card o2"/>
+  <path d="M54.0 33.0L54.0 36.0" class="nf s-out" stroke-width="2.6" stroke-linecap="round"/><path d="M69.5 37.2L71.0 34.6" class="nf s-out" stroke-width="1.5" stroke-linecap="round"/><path d="M80.8 48.5L83.4 47.0" class="nf s-out" stroke-width="1.5" stroke-linecap="round"/><path d="M85.0 64.0L82.0 64.0" class="nf s-out" stroke-width="2.6" stroke-linecap="round"/><path d="M80.8 79.5L83.4 81.0" class="nf s-out" stroke-width="1.5" stroke-linecap="round"/><path d="M69.5 90.8L71.0 93.4" class="nf s-out" stroke-width="1.5" stroke-linecap="round"/><path d="M54.0 95.0L54.0 92.0" class="nf s-out" stroke-width="2.6" stroke-linecap="round"/><path d="M38.5 90.8L37.0 93.4" class="nf s-out" stroke-width="1.5" stroke-linecap="round"/><path d="M27.2 79.5L24.6 81.0" class="nf s-out" stroke-width="1.5" stroke-linecap="round"/><path d="M23.0 64.0L26.0 64.0" class="nf s-out" stroke-width="2.6" stroke-linecap="round"/><path d="M27.2 48.5L24.6 47.0" class="nf s-out" stroke-width="1.5" stroke-linecap="round"/><path d="M38.5 37.2L37.0 34.6" class="nf s-out" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M54 64L54 42M54 64L70 72" class="nf s-out" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M54 68L54 34" class="nf s-verm a-tick" stroke-width="1.6" stroke-linecap="round" style="transform-origin:54px 64px"/>
+  <circle cx="54" cy="64" r="3" class="f-verm"/>
+  <g><rect x="104" y="14" width="82" height="22" rx="5" class="f-card o2"/><rect x="104" y="14" width="7" height="22" class="f-amber"/><rect x="104" y="14" width="82" height="22" rx="5" class="nf o2"/><rect x="117" y="20" width="34" height="4" rx="2" class="f-ink2" opacity=".7"/><rect x="117" y="27" width="52" height="3" rx="1.5" class="f-uil"/></g><g><rect x="104" y="40" width="82" height="22" rx="5" class="f-card o2"/><rect x="104" y="40" width="7" height="22" class="f-teal"/><rect x="104" y="40" width="82" height="22" rx="5" class="nf o2"/><rect x="117" y="46" width="40" height="4" rx="2" class="f-ink2" opacity=".7"/><rect x="117" y="53" width="30" height="3" rx="1.5" class="f-uil"/></g><g><rect x="104" y="66" width="82" height="22" rx="5" class="f-card o2"/><rect x="104" y="66" width="7" height="22" class="f-verm"/><rect x="104" y="66" width="82" height="22" rx="5" class="nf o2"/><rect x="117" y="72" width="30" height="4" rx="2" class="f-ink2" opacity=".7"/><rect x="117" y="79" width="44" height="3" rx="1.5" class="f-uil"/></g><g><rect x="104" y="92" width="82" height="22" rx="5" class="f-card o2"/><rect x="104" y="92" width="7" height="22" class="f-lav"/><rect x="104" y="92" width="82" height="22" rx="5" class="nf o2"/><rect x="117" y="98" width="46" height="4" rx="2" class="f-ink2" opacity=".7"/><rect x="117" y="105" width="36" height="3" rx="1.5" class="f-uil"/></g>
+</svg>
+      <circle cx="632" cy="311" r="8" style="fill:var(--amber);stroke:var(--edge);stroke-width:2.5"/>
+      <text x="650" y="319" class="t ink" font-size="21" font-weight="800" letter-spacing="-.4">DevOps Automation</text>
+    </g><g>
+      <rect x="900" y="117" width="270" height="226" rx="20" class="edge"/>
+      <rect x="900" y="112" width="270" height="226" rx="20" class="tile"/>
+      <rect x="910" y="122" width="250" height="160" rx="13" style="fill:var(--amber-soft)"/>
+      <svg x="910" y="122" width="250" height="160" viewBox="0 0 200 128" class="art" aria-hidden="true" focusable="false">
+  <ellipse cx="100" cy="66" rx="58" ry="40" class="f-desk3 o2"/>
+  <rect x="84" y="46" width="32" height="40" rx="3" class="f-paper o2"/>
+  <rect x="89" y="54" width="22" height="2.5" rx="1.25" class="f-uil"/><rect x="89" y="60" width="18" height="2.5" rx="1.25" class="f-uil"/><rect x="89" y="66" width="22" height="2.5" rx="1.25" class="f-uil"/><rect x="89" y="72" width="14" height="2.5" rx="1.25" class="f-uil"/>
+  <path d="M100 76l4 4l9-9" class="nf s-teal" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="100" cy="16" r="10" class="f-amber o2"/><path d="M95 9l2.5 3l2.5-4l2.5 4l2.5-3l-1 6h-8z" class="f-card s-out" stroke-width="1.2" stroke-linejoin="round"/>
+  <circle cx="38" cy="48" r="9" class="f-teal o2"/><circle cx="162" cy="48" r="9" class="f-teal o2"/>
+  <circle cx="44" cy="98" r="9" class="f-lav o2"/><circle cx="100" cy="116" r="9" class="f-lav o2"/><circle cx="156" cy="98" r="9" class="f-lav o2"/>
+  <path d="M52 40q10-8 22-6M148 40q-10-8-22-6" class="nf s-teal" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+</svg>
+      <rect x="1058" y="130" width="94" height="24" rx="12" class="f-amber-soft" style="stroke:var(--edge);stroke-width:2"/><text x="1105" y="146" text-anchor="middle" class="m" font-size="11.5" font-weight="700" style="fill:var(--amber-ink)">exploring</text>
+      <circle cx="922" cy="311" r="8" style="fill:var(--teal);stroke:var(--edge);stroke-width:2.5"/>
+      <text x="940" y="319" class="t ink" font-size="21" font-weight="800" letter-spacing="-.4">Research &amp; Dev</text>
+    </g><g>
+      <rect x="30" y="363" width="270" height="226" rx="20" class="edge"/>
+      <rect x="30" y="358" width="270" height="226" rx="20" class="tile"/>
+      <rect x="40" y="368" width="250" height="160" rx="13" style="fill:var(--teal-soft)"/>
+      <svg x="40" y="368" width="250" height="160" viewBox="0 0 200 128" class="art" aria-hidden="true" focusable="false">
+  <rect x="12" y="12" width="136" height="104" rx="9" class="f-screen o2"/><path d="M21 12h118a9 9 0 0 1 9 9v7h-136v-7a9 9 0 0 1 9-9z" class="f-ui1"/><rect x="12" y="12" width="136" height="104" rx="9" class="nf o2"/><circle cx="21" cy="20" r="2.4" class="f-verm"/><circle cx="28" cy="20" r="2.4" class="f-amber"/><circle cx="35" cy="20" r="2.4" class="f-teal"/>
+  <rect x="42" y="15" width="98" height="9" rx="4.5" class="f-card"/><rect x="46" y="17.5" width="5" height="4" rx="1" class="f-teal"/><rect x="55" y="18.5" width="40" height="2.5" rx="1.25" class="f-uil"/>
+  <rect x="20" y="34" width="50" height="6" rx="3" class="f-ink2" opacity=".55"/><rect x="20" y="46" width="60" height="4" rx="2" class="f-uil"/><rect x="20" y="54" width="52" height="4" rx="2" class="f-uil"/><rect x="20" y="62" width="40" height="4" rx="2" class="f-uil"/>
+  <rect x="20" y="74" width="44" height="32" rx="4" class="f-teal-soft"/>
+  <rect x="62" y="58" width="78" height="50" rx="7" class="f-card o2"/><rect x="69" y="65" width="42" height="4.5" rx="2.25" class="f-ink2" opacity=".7"/><rect x="69" y="74" width="62" height="3" rx="1.5" class="f-uil"/>
+  <g class="a-pulse"><rect x="69" y="86" width="36" height="14" rx="5" class="f-amber o2"/><path d="M81 93l3 3l6-6" class="nf s-out" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <rect x="109" y="86" width="24" height="14" rx="5" class="f-card o2"/><path d="M117 89.5l7 7M124 89.5l-7 7" class="nf s-out" stroke-width="1.8" stroke-linecap="round"/>
+  <rect x="154" y="12" width="36" height="104" rx="8" class="f-ui1 o2"/>
+  <path d="M160 26l2.5 2.5l4.5-5" class="nf s-teal" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="170" y="24" width="14" height="3" rx="1.5" class="f-uil"/><path d="M160 40l2.5 2.5l4.5-5" class="nf s-teal" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="170" y="38" width="14" height="3" rx="1.5" class="f-uil"/><path d="M160 54l2.5 2.5l4.5-5" class="nf s-teal" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="170" y="52" width="14" height="3" rx="1.5" class="f-uil"/><path d="M160 68l2.5 2.5l4.5-5" class="nf s-teal" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="170" y="66" width="14" height="3" rx="1.5" class="f-uil"/>
+  <path d="M159 96q13-12 26 0q-13 12-26 0z" class="f-card o2"/><circle cx="172" cy="96" r="3.6" class="f-out"/>
+</svg>
+      <circle cx="52" cy="557" r="8" style="fill:var(--verm);stroke:var(--edge);stroke-width:2.5"/>
+      <text x="70" y="565" class="t ink" font-size="24" font-weight="800" letter-spacing="-.4">React / Next.js</text>
+    </g><g>
+      <rect x="320" y="363" width="270" height="226" rx="20" class="edge"/>
+      <rect x="320" y="358" width="270" height="226" rx="20" class="tile"/>
+      <rect x="330" y="368" width="250" height="160" rx="13" style="fill:var(--amber-soft)"/>
+      <svg x="330" y="368" width="250" height="160" viewBox="0 0 200 128" class="art" aria-hidden="true" focusable="false">
+  <rect x="18" y="12" width="92" height="106" rx="4" class="f-paper o2"/>
+  <rect x="28" y="22" width="50" height="5" rx="2.5" class="f-ink2" opacity=".7"/>
+  <rect x="28" y="34" width="70" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="41" width="64" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="48" width="72" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="55" width="58" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="62" width="70" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="69" width="66" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="76" width="72" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="83" width="50" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="90" width="68" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="97" width="60" height="2.5" rx="1.25" class="f-uil"/><rect x="28" y="104" width="40" height="2.5" rx="1.25" class="f-uil"/>
+  <rect x="26" y="46" width="60" height="6" rx="1" class="f-amber" opacity=".5"/><rect x="26" y="74" width="48" height="6" rx="1" class="f-teal" opacity=".45"/>
+  <path d="M86 49C120 44 116 30 128 28" class="nf s-lav" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <path d="M74 77C110 84 112 72 128 70" class="nf s-lav" stroke-width="1.8" stroke-dasharray="3 3"/>
+  <rect x="124" y="16" width="60" height="40" rx="6" class="f-lav-soft o2"/><rect x="131" y="24" width="30" height="4" rx="2" class="f-lav"/><rect x="131" y="33" width="44" height="3" rx="1.5" class="f-lav" opacity=".55"/><rect x="131" y="41" width="36" height="3" rx="1.5" class="f-lav" opacity=".55"/>
+  <rect x="124" y="62" width="60" height="40" rx="6" class="f-lav-soft o2"/><rect x="131" y="70" width="24" height="4" rx="2" class="f-lav"/><rect x="131" y="79" width="44" height="3" rx="1.5" class="f-lav" opacity=".55"/><rect x="131" y="87" width="30" height="3" rx="1.5" class="f-lav" opacity=".55"/>
+  <path d="M100 110l10-12l10 12" class="nf"/>
+</svg>
+      <circle cx="342" cy="557" r="8" style="fill:var(--lav);stroke:var(--edge);stroke-width:2.5"/>
+      <text x="360" y="565" class="t ink" font-size="21" font-weight="800" letter-spacing="-.4">Always Learning</text>
+    </g><g>
+      <rect x="610" y="363" width="270" height="226" rx="20" class="edge"/>
+      <rect x="610" y="358" width="270" height="226" rx="20" class="tile"/>
+      <rect x="620" y="368" width="250" height="160" rx="13" style="fill:var(--lav-soft)"/>
+      <svg x="620" y="368" width="250" height="160" viewBox="0 0 200 128" class="art" aria-hidden="true" focusable="false">
+  <rect x="14" y="12" width="172" height="104" rx="9" class="f-code o2"/>
+  <circle cx="23" cy="20" r="2.4" class="f-verm"/><circle cx="30" cy="20" r="2.4" class="f-amber"/><circle cx="37" cy="20" r="2.4" class="f-teal"/>
+  <g font-family="ui-monospace,'Cascadia Mono',Consolas,monospace" font-size="10" font-weight="700">
+    <text x="24" y="44" class="f-amber">› git status</text>
+    <text x="24" y="62" class="f-teal">› npm run dev</text>
+  </g>
+  <rect x="24" y="72" width="4" height="4" rx="1" class="f-teal"/><rect x="32" y="72" width="70" height="4" rx="2" class="f-teal" opacity=".55"/>
+  <rect x="24" y="81" width="4" height="4" rx="1" class="f-verm"/><rect x="32" y="81" width="54" height="4" rx="2" class="f-verm" opacity=".55"/>
+  <rect x="24" y="90" width="4" height="4" rx="1" class="f-teal"/><rect x="32" y="90" width="82" height="4" rx="2" class="f-teal" opacity=".55"/>
+  <rect x="24" y="101" width="8" height="9" rx="1" class="f-star a-blink"/>
+  <rect x="124" y="30" width="52" height="50" rx="6" class="nf s-uil" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="150" y="61" text-anchor="middle" class="f-star" font-family="ui-rounded,'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="800">Laravel</text>
+  <path d="M106 52h14m-4-4l4 4l-4 4" class="nf s-uil" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+      <circle cx="632" cy="557" r="8" style="fill:var(--amber);stroke:var(--edge);stroke-width:2.5"/>
+      <text x="650" y="565" class="t ink" font-size="24" font-weight="800" letter-spacing="-.4">Dev Tools</text>
+    </g><g>
+      <rect x="900" y="363" width="270" height="226" rx="20" class="edge"/>
+      <rect x="900" y="358" width="270" height="226" rx="20" class="tile"/>
+      <rect x="910" y="368" width="250" height="160" rx="13" style="fill:var(--teal-soft)"/>
+      <svg x="910" y="368" width="250" height="160" viewBox="0 0 200 128" class="art" aria-hidden="true" focusable="false">
+  <rect x="18" y="44" width="32" height="40" rx="7" class="f-card o2"/><rect x="64" y="44" width="32" height="40" rx="7" class="f-amber-soft o2"/><rect x="110" y="44" width="32" height="40" rx="7" class="f-teal-soft o2"/><rect x="156" y="44" width="32" height="40" rx="7" class="f-card o2"/>
+  <path d="M52 64h10m-4-4l4 4l-4 4" class="nf s-out" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M98 64h10m-4-4l4 4l-4 4" class="nf s-out" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M144 64h10m-4-4l4 4l-4 4" class="nf s-out" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 52h14l4 4v20h-18z" class="f-paper o2"/><rect x="29" y="62" width="10" height="2.5" rx="1" class="f-uil"/><rect x="29" y="67" width="8" height="2.5" rx="1" class="f-uil"/><rect x="36" y="55" width="10" height="8" rx="2" class="f-verm o2"/>
+  <path d="M71 58h18v18h-18z" class="f-amber o2"/><path d="M71 64h18M80 58v6" class="nf s-out" stroke-width="1.6"/>
+  <circle cx="126" cy="64" r="10" class="f-teal o2"/><path d="M121 64l4 4l6-7" class="nf" stroke="#fffaf1" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M164 58h16m-4-4l4 4l-4 4M180 70h-16m4-4l-4 4l4 4" class="nf s-out" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 100h144" class="nf s-uil" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+  <circle cx="28" cy="100" r="3.5" class="f-verm"/><circle cx="172" cy="100" r="3.5" class="f-teal"/>
+</svg>
+      <circle cx="922" cy="557" r="8" style="fill:var(--teal);stroke:var(--edge);stroke-width:2.5"/>
+      <text x="940" y="565" class="t ink" font-size="24" font-weight="800" letter-spacing="-.4">My Workflow</text>
+    </g>
+</svg>

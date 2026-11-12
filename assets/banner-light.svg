@@ -1,0 +1,356 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" class="scene-svg" role="img" aria-labelledby="t">
+<title id="t">Renz — Full Stack Developer | Web Developer</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg: #f6efe2;
+  --bg-2: #efe5d1;
+  --paper: #fffaf1;
+  --ink: #1b2440;
+  --ink-2: #4b5470;
+  --ink-3: #61687e;
+  --line: #e2d4b9;
+  --edge: #1b2440;
+  --edge-soft: #d8c8aa;
+  --verm: #d2482b;
+  --verm-ink: #a3341b;
+  --amber: #efa92c;
+  --amber-soft: #fbe3b0;
+  --amber-ink: #85570a;
+  --teal: #2a9d8f;
+  --teal-soft: #cdeae3;
+  --teal-ink: #17675d;
+  --lav: #8d7de0;
+  --lav-soft: #e3ddfb;
+  --lav-ink: #5546b0;
+  --verm-soft: #f9d6c8;
+  --link: #b13a1f;
+  --focus: #d2482b;
+  --day-1: #fbe0a8; --day-1-ink: #1b2440;
+  --day-2: #fff3da; --day-2-ink: #1b2440;
+  --day-3: #cdeae3; --day-3-ink: #1b2440;
+  --day-4: #f6c7b3; --day-4-ink: #1b2440;
+  --day-5: #1b2440; --day-5-ink: #f4ecdc;
+  /* the drawn room */
+  --s-wall: #f2e1c3;
+  --s-wall-2: #e6cfa6;
+  --s-out: #1b2440;
+  --s-sky-a: #9fd2dc;
+  --s-sky-b: #f8dfb4;
+  --s-hill: #8fc2b3;
+  --s-hill-2: #6fa999;
+  --s-frame: #b4744a;
+  --s-frame-2: #94593a;
+  --s-desk: #cf9258;
+  --s-desk-2: #ad6f3f;
+  --s-desk-3: #e2ab73;
+  --s-floor: #c7986c;
+  --s-floor-2: #b5875c;
+  --s-rug: #2a9d8f;
+  --s-bezel: #1d2640;
+  --s-screen: #fffaf1;
+  --s-ui-1: #f1e6d2;
+  --s-ui-2: #f6dfb0;
+  --s-ui-3: #e8dcc6;
+  --s-ui-line: #c8b796;
+  --s-code: #1d2640;
+  --s-paper: #fffdf7;
+  --s-star: #fff2c4;
+  --s-glow: rgba(255, 196, 92, 0.42);
+  --s-cloud: #fffaf0;
+  --s-plant: #4f9b6c;
+  --s-plant-2: #3a7d55;
+  --s-shadow: rgba(27, 36, 64, 0.16);}
+.night{display:none}
+/* scene drawing classes */
+.scene-svg .o, .art .o { stroke: var(--s-out); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+.scene-svg .o2, .art .o2 { stroke: var(--s-out); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.f-wall { fill: var(--s-wall); } .f-wall2 { fill: var(--s-wall-2); }
+.f-frame { fill: var(--s-frame); } .f-frame2 { fill: var(--s-frame-2); }
+.f-desk { fill: var(--s-desk); } .f-desk2 { fill: var(--s-desk-2); } .f-desk3 { fill: var(--s-desk-3); }
+.f-floor { fill: var(--s-floor); } .f-floor2 { fill: var(--s-floor-2); } .f-rug { fill: var(--s-rug); }
+.f-bezel { fill: var(--s-bezel); } .f-screen { fill: var(--s-screen); }
+.f-ui1 { fill: var(--s-ui-1); } .f-ui2 { fill: var(--s-ui-2); } .f-ui3 { fill: var(--s-ui-3); } .f-uil { fill: var(--s-ui-line); }
+.f-code { fill: var(--s-code); } .f-paper { fill: var(--s-paper); }
+.f-hill { fill: var(--s-hill); } .f-hill2 { fill: var(--s-hill-2); }
+.f-star { fill: var(--s-star); } .f-cloud { fill: var(--s-cloud); }
+.f-plant { fill: var(--s-plant); } .f-plant2 { fill: var(--s-plant-2); }
+.f-amber { fill: var(--amber); } .f-verm { fill: var(--verm); } .f-teal { fill: var(--teal); } .f-lav { fill: var(--lav); }
+.f-amber-soft { fill: var(--amber-soft); } .f-teal-soft { fill: var(--teal-soft); } .f-lav-soft { fill: var(--lav-soft); }
+.f-ink { fill: var(--ink); } .f-ink2 { fill: var(--ink-2); } .f-bg { fill: var(--bg); } .f-card { fill: var(--paper); }
+.f-out { fill: var(--s-out); } .f-glow { fill: var(--s-glow); } .f-shadow { fill: var(--s-shadow); }
+.s-out { stroke: var(--s-out); } .s-amber { stroke: var(--amber); } .s-star { stroke: var(--s-star); } .s-teal { stroke: var(--teal); } .s-verm { stroke: var(--verm); } .s-uil { stroke: var(--s-ui-line); } .s-ink2 { stroke: var(--ink-2); } .s-ink { stroke: var(--ink); } .s-lav { stroke: var(--lav); }
+.sky-a { stop-color: var(--s-sky-a); } .sky-b { stop-color: var(--s-sky-b); }
+.nf { fill: none; }
+/* motion */
+@keyframes sway { 0%, 100% { transform: rotate(-1.6deg); } 50% { transform: rotate(1.6deg); } }
+@keyframes glow {
+  0%, 22%, 100% { box-shadow: 0 0.35cqw 0 var(--s-shadow); border-color: var(--s-out); }
+  6%, 16% { box-shadow: 0 0 0 0.35cqw var(--amber), 0 0.6cqw 2.2cqw 0.2cqw var(--s-glow); }
+}
+@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+@keyframes steam { 0% { transform: translateY(6px); opacity: 0; } 30% { opacity: 0.8; } 100% { transform: translateY(-26px); opacity: 0; } }
+@keyframes dot { 0%, 60%, 100% { transform: translateY(0); } 30% { transform: translateY(-4px); } }
+@keyframes tick { to { transform: rotate(360deg); } }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+@keyframes lampglow { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.75; } }
+@keyframes rise { 0% { transform: translateY(8px); opacity: 0; } 12%, 88% { transform: translateY(0); opacity: 1; } 100% { opacity: 0; } }
+.a-blink { animation: blink 1.1s steps(1) infinite; }
+.a-twinkle { animation: twinkle 3.2s ease-in-out infinite; }
+.a-steam { animation: steam 3.6s ease-out infinite; transform-box: fill-box; }
+.a-dot { animation: dot 1.4s ease-in-out infinite; transform-box: fill-box; }
+.a-tick { animation: tick 60s linear infinite; transform-box: view-box; }
+.a-tick-slow { animation: tick 720s linear infinite; transform-box: view-box; }
+.a-pulse { animation: pulse 2.4s ease-in-out infinite; }
+.a-lamp { animation: lampglow 5s ease-in-out infinite; }
+.a-rise { animation: rise 9s ease-in-out infinite; transform-box: fill-box; }
+.t{font-family:ui-rounded,'SF Pro Rounded','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'PingFang SC','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC',sans-serif}.m{font-family:ui-monospace,'Cascadia Mono','SF Mono',Menlo,Consolas,monospace}
+.ink{fill:var(--ink)}.ink2{fill:var(--ink-2)}.ink3{fill:var(--ink-3)}.verm{fill:var(--verm)}.lavink{fill:var(--lav-ink)}
+.card{fill:var(--paper);stroke:var(--s-out);stroke-width:2.5}
+.tile{fill:var(--paper);stroke:var(--edge);stroke-width:2.5}
+.edge{fill:var(--edge)}
+.sway{animation:sway 6s ease-in-out infinite}
+.glowc{animation:glowc 12s ease-in-out infinite;stroke:var(--amber);stroke-width:7;fill:none;opacity:0}
+@keyframes glowc{0%,4%,22%,100%{opacity:0}8%,16%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<clipPath id="frame"><rect x="2" y="2" width="1196" height="756" rx="30"/></clipPath>
+<g clip-path="url(#frame)">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="sky-a"/><stop offset="1" class="sky-b"/></linearGradient>
+  <pattern id="wallp" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M22 17v10M17 22h10" class="s-out" stroke-width="1.6" stroke-linecap="round" opacity=".07"/></pattern>
+  <clipPath id="glass"><rect x="676" y="46" width="348" height="208" rx="4"/></clipPath>
+  <clipPath id="mon"><rect x="394" y="306" width="392" height="222" rx="6"/></clipPath>
+  <clipPath id="tab"><rect x="88" y="414" width="220" height="126" rx="6"/></clipPath>
+  <mask id="moon"><rect x="900" y="50" width="120" height="110" fill="#fff"/><circle cx="980" cy="92" r="24" fill="#000"/></mask>
+</defs>
+<!-- room -->
+<rect class="f-wall" width="1200" height="760"/>
+<rect fill="url(#wallp)" width="1200" height="700"/>
+<rect class="f-wall2" x="0" y="690" width="1200" height="12"/>
+<rect class="f-floor" x="0" y="700" width="1200" height="60"/>
+<path d="M0 724H1200M0 746H1200" class="nf s-out" stroke-width="2" opacity=".12"/>
+<ellipse cx="1066" cy="742" rx="138" ry="15" class="f-rug" opacity=".85"/>
+<!-- window -->
+<g>
+  <rect x="660" y="30" width="380" height="240" rx="10" class="f-frame o"/>
+  <rect x="676" y="46" width="348" height="208" rx="4" fill="url(#sky)"/>
+  <g clip-path="url(#glass)">
+    <g class="day">
+      <circle cx="962" cy="102" r="30" class="f-amber"/>
+      <path d="M702 112a16 16 0 0 1 28-10a20 20 0 0 1 36 4a13 13 0 0 1 4 26h-62a12 12 0 0 1-6-20z" class="f-cloud" opacity=".95"/>
+      <path d="M866 176a12 12 0 0 1 22-8a16 16 0 0 1 29 4a10 10 0 0 1 2 20h-48a9 9 0 0 1-5-16z" class="f-cloud" opacity=".9"/>
+      <path d="M820 82q6-6 12 0q6-6 12 0M852 66q4-4 8 0q4-4 8 0" class="nf s-out" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+    </g>
+    <g class="night">
+      <circle cx="700" cy="70" r="1.6" class="f-star a-twinkle" style="animation-delay:0s"/><circle cx="742" cy="118" r="1.2" class="f-star a-twinkle" style="animation-delay:1.1s"/><circle cx="790" cy="64" r="1.4" class="f-star a-twinkle" style="animation-delay:2.2s"/><circle cx="812" cy="132" r="1.1" class="f-star a-twinkle" style="animation-delay:0.6s"/><circle cx="872" cy="74" r="1.5" class="f-star a-twinkle" style="animation-delay:1.7s"/><circle cx="905" cy="140" r="1.1" class="f-star a-twinkle" style="animation-delay:2.6s"/><circle cx="1004" cy="66" r="1.3" class="f-star a-twinkle" style="animation-delay:0.3s"/><circle cx="1010" cy="150" r="1.2" class="f-star a-twinkle" style="animation-delay:1.4s"/><circle cx="884" cy="200" r="1" class="f-star a-twinkle" style="animation-delay:2.9s"/><circle cx="760" cy="176" r="1.1" class="f-star a-twinkle" style="animation-delay:0.9s"/><circle cx="928" cy="182" r="1.3" class="f-star a-twinkle" style="animation-delay:2s"/><circle cx="996" cy="196" r="1" class="f-star a-twinkle" style="animation-delay:1.2s"/><circle cx="690" cy="150" r="1.1" class="f-star a-twinkle" style="animation-delay:2.4s"/>
+      <path d="M748 82L768 70M748 82L764 104M768 70L764 104M764 104L792 126M792 126L780 168M780 168L752 150M752 150L764 104" class="nf s-star" stroke-width="1.4" stroke-dasharray="3 4" opacity=".7"/><circle cx="748" cy="82" r="4.2" class="f-star a-twinkle" style="animation-duration:5s"/><circle cx="768" cy="70" r="2" class="f-star"/><circle cx="764" cy="104" r="2.2" class="f-star"/><circle cx="792" cy="126" r="2.3" class="f-star"/><circle cx="780" cy="168" r="2.6" class="f-star"/><circle cx="752" cy="150" r="2.6" class="f-star"/>
+      <circle cx="966" cy="98" r="24" class="f-star" mask="url(#moon)"/>
+    </g>
+    <path d="M676 254V214q30-26 70-12q34 12 66-6q40-22 82 0q34 16 66-4q30-18 64-2V254z" class="f-hill"/>
+    <path d="M676 254v-22h26v-14h20v14h14v-26h24v26h40v-12h22v12h120v-18h18v-10h22v28h24v-14h18v14h22v22z" class="f-hill2"/>
+    <g class="night">
+      <rect x="708" y="224" width="5" height="6" rx="1" class="f-amber" opacity=".9"/><rect x="740" y="216" width="5" height="6" rx="1" class="f-amber" opacity=".9"/><rect x="744" y="228" width="5" height="6" rx="1" class="f-amber" opacity=".9"/><rect x="790" y="238" width="5" height="6" rx="1" class="f-amber" opacity=".9"/><rect x="912" y="232" width="5" height="6" rx="1" class="f-amber" opacity=".9"/><rect x="930" y="222" width="5" height="6" rx="1" class="f-amber" opacity=".9"/><rect x="968" y="234" width="5" height="6" rx="1" class="f-amber" opacity=".9"/><rect x="990" y="240" width="5" height="6" rx="1" class="f-amber" opacity=".9"/>
+    </g>
+  </g>
+  <rect x="847" y="46" width="6" height="208" class="f-frame"/>
+  <rect x="676" y="147" width="348" height="6" class="f-frame"/>
+  <rect x="676" y="46" width="348" height="208" rx="4" class="nf o2"/>
+  <rect x="648" y="264" width="404" height="14" rx="5" class="f-frame2 o2"/>
+  <!-- a cactus on the sill -->
+  <path d="M700 238q0-18 9-18t9 18v4h-18z" class="f-plant o2"/>
+  <path d="M697 242h24l-3 22h-18z" class="f-verm o2"/>
+</g>
+<!-- clock -->
+<g>
+  <circle cx="1122" cy="94" r="40" class="f-card o"/>
+  <path d="M1122 60v7M1122 121v7M1088 94h7M1149 94h7" class="nf s-out" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1122 94L1104 82" class="nf s-out a-tick-slow" stroke-width="4.5" stroke-linecap="round" style="transform-origin:1122px 94px"/>
+  <path d="M1122 94L1122 68" class="nf s-out" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M1122 102L1122 62" class="nf s-verm a-tick" stroke-width="2" stroke-linecap="round" style="transform-origin:1122px 94px"/>
+  <circle cx="1122" cy="94" r="4" class="f-verm"/>
+</g>
+<!-- clothesline for the jobs -->
+<g class="wide-only"><path d="M18 244Q249 292 480 248" class="nf s-out" stroke-width="2.5"/>
+<circle cx="18" cy="244" r="6" class="f-frame o2"/><circle cx="480" cy="248" r="6" class="f-frame o2"/></g>
+<!-- desk -->
+<g>
+  <rect x="16" y="578" width="284" height="138" rx="6" class="f-desk o"/>
+  <rect x="34" y="596" width="248" height="50" rx="7" class="f-desk2 o2"/><rect x="34" y="654" width="248" height="50" rx="7" class="f-desk2 o2"/>
+  <rect x="140" y="616" width="36" height="9" rx="4.5" class="f-desk3 o2"/><rect x="140" y="674" width="36" height="9" rx="4.5" class="f-desk3 o2"/>
+  <rect x="300" y="578" width="384" height="26" class="f-desk2 o"/>
+  <rect x="300" y="604" width="384" height="100" class="f-out" opacity=".08"/>
+  <rect x="684" y="578" width="256" height="138" rx="6" class="f-desk o"/>
+  <rect x="702" y="596" width="220" height="108" rx="7" class="f-desk2 o2"/>
+  <rect x="800" y="640" width="24" height="10" rx="5" class="f-desk3 o2"/>
+  <rect x="-10" y="554" width="966" height="26" rx="6" class="f-desk3 o"/>
+</g>
+<!-- a tall plant at the left edge -->
+<g>
+  <path d="M44 470q-26-50-10-104q18 46 18 104zM52 470q-4-70 24-120q8 64-10 120zM58 472q16-46 52-66q-14 44-40 70z" class="f-plant o2"/>
+  <path d="M40 474q-18-36-30-44q30 6 40 42z" class="f-plant2 o2"/>
+  <path d="M28 470h56l-7 84h-42z" class="f-teal o2"/>
+  <path d="M30 486h52" class="nf s-out" stroke-width="2" opacity=".35"/>
+</g>
+<!-- Web application, on a tablet -->
+<g>
+  <ellipse cx="200" cy="556" rx="112" ry="5" class="f-shadow"/>
+  <path d="M236 552l22-96l18 2l-12 94z" class="f-bezel o2"/>
+  <rect x="84" y="404" width="232" height="148" rx="14" class="f-bezel o"/>
+  <g clip-path="url(#tab)">
+    <rect x="88" y="414" width="220" height="126" class="f-screen"/>
+    <rect x="88" y="414" width="220" height="20" class="f-ui1"/>
+    <circle cx="98" cy="424" r="2.6" class="f-verm"/><circle cx="106" cy="424" r="2.6" class="f-amber"/><circle cx="114" cy="424" r="2.6" class="f-teal"/>
+    <rect x="126" y="418" width="170" height="12" rx="6" class="f-card"/>
+    <path d="M133 427v-3.5a3 3 0 0 1 6 0V427" class="nf s-teal" stroke-width="1.6"/><rect x="131.5" y="424.5" width="9" height="6" rx="1.5" class="f-teal"/>
+    <rect x="146" y="422" width="70" height="4" rx="2" class="f-uil"/>
+    <rect x="98" y="444" width="74" height="8" rx="4" class="f-ink2" opacity=".55"/>
+    <rect x="98" y="458" width="60" height="5" rx="2.5" class="f-uil"/><rect x="98" y="468" width="66" height="5" rx="2.5" class="f-uil"/><rect x="98" y="478" width="48" height="5" rx="2.5" class="f-uil"/>
+    <rect x="98" y="492" width="62" height="40" rx="5" class="f-teal-soft"/>
+    <path d="M104 526l14-14l10 9l8-6l18 11z" class="f-teal" opacity=".7"/>
+    <rect x="170" y="454" width="130" height="78" rx="9" class="f-card o2"/>
+    <rect x="180" y="464" width="66" height="7" rx="3.5" class="f-ink2" opacity=".7"/>
+    <rect x="180" y="477" width="104" height="4" rx="2" class="f-uil"/><rect x="180" y="486" width="86" height="4" rx="2" class="f-uil"/>
+    <g class="a-pulse"><rect x="180" y="502" width="60" height="20" rx="7" class="f-amber o2"/><path d="M201 512l5 5l10-10" class="nf s-out" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <rect x="246" y="502" width="44" height="20" rx="7" class="f-card o2"/>
+    <path d="M263 507l10 10M273 507l-10 10" class="nf s-out" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</g>
+<!-- a pencil cup -->
+<g>
+  <path d="M346 470l-8-40M356 468l4-46M364 470l12-36" class="nf s-out" stroke-width="7" stroke-linecap="round"/>
+  <path d="M346 470l-8-40" class="nf s-amber" stroke-width="4" stroke-linecap="round"/><path d="M356 468l4-46" class="nf s-verm" stroke-width="4" stroke-linecap="round"/><path d="M364 470l12-36" class="nf s-lav" stroke-width="4" stroke-linecap="round"/>
+  <rect x="336" y="470" width="40" height="86" rx="6" class="f-teal o"/>
+  <path d="M336 492h40" class="nf s-out" stroke-width="2" opacity=".35"/>
+</g>
+<!-- a mug -->
+<g transform="translate(66 0)">
+  <path d="M342 512q-7-8 0-16t0-16M354 512q-7-8 0-16t0-16" class="nf s-out a-steam" stroke-width="2.6" stroke-linecap="round" opacity=".55"/>
+  <path d="M366 530q16 0 16 12t-16 12" class="nf s-out" stroke-width="3.2"/>
+  <rect x="330" y="520" width="38" height="36" rx="7" class="f-verm o"/>
+  <path d="M338 532h22" class="nf" stroke="#fffaf1" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+</g>
+<!-- the monitor: Laravel -->
+<g transform="translate(652 560) scale(.82) translate(-590 -560)">
+  <rect x="570" y="540" width="40" height="18" class="f-bezel o2"/>
+  <rect x="526" y="550" width="128" height="10" rx="5" class="f-bezel o2"/>
+  <rect x="380" y="292" width="420" height="250" rx="16" class="f-bezel o"/>
+  <g clip-path="url(#mon)">
+    <rect x="394" y="306" width="392" height="222" class="f-screen"/>
+    <rect x="394" y="306" width="392" height="18" class="f-ui1"/>
+    <circle cx="406" cy="315" r="3.4" class="f-verm"/><circle cx="417" cy="315" r="3.4" class="f-amber"/><circle cx="428" cy="315" r="3.4" class="f-teal"/>
+    <text x="590" y="319" text-anchor="middle" class="f-ink2" font-family="ui-rounded,'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="800">Laravel</text>
+    <rect x="394" y="324" width="82" height="204" class="f-ui1"/>
+    <rect x="402" y="334" width="66" height="12" rx="6" class="f-amber" opacity=".7"/>
+    <rect x="402" y="354" width="58" height="8" rx="4" class="f-uil"/><rect x="402" y="370" width="62" height="8" rx="4" class="f-uil"/><rect x="402" y="386" width="48" height="8" rx="4" class="f-uil"/><rect x="402" y="402" width="56" height="8" rx="4" class="f-uil"/>
+    <circle cx="412" cy="508" r="11" class="f-lav"/><path d="M408.26 503.38L412.44 501.84M408.26 503.38L411.34 506.68M412.44 501.84L411.34 506.68M411.34 506.68L416.4 508.88M416.4 508.88L414.64 514.16M414.64 514.16L409.58 512.18M409.58 512.18L411.34 506.68" class="nf s-star" stroke-width="0.7" stroke-linecap="round" opacity=".7"/><path d="M408.26 500.74Q408.26 503.38 410.9 503.38Q408.26 503.38 408.26 506.02Q408.26 503.38 405.62 503.38Q408.26 503.38 408.26 500.74z" class="f-star"/><circle cx="408.26" cy="503.38" r="0.77" class="f-star"/><circle cx="412.44" cy="501.84" r="0.82" class="f-star"/><circle cx="411.34" cy="506.68" r="0.94" class="f-star"/><circle cx="416.4" cy="508.88" r="0.94" class="f-star"/><circle cx="414.64" cy="514.16" r="1.04" class="f-star"/><circle cx="409.58" cy="512.18" r="1.04" class="f-star"/>
+    <rect x="428" y="504" width="38" height="7" rx="3.5" class="f-uil"/>
+    <!-- chat -->
+    <rect x="590" y="334" width="92" height="24" rx="10" class="f-ui2"/><rect x="600" y="343" width="64" height="6" rx="3" class="f-amber" opacity=".75"/>
+    <rect x="486" y="366" width="150" height="36" rx="10" class="f-ui3"/><rect x="496" y="375" width="118" height="6" rx="3" class="f-uil"/><rect x="496" y="387" width="86" height="6" rx="3" class="f-uil"/>
+    <rect x="486" y="410" width="196" height="60" rx="8" class="f-code"/>
+    <rect x="496" y="420" width="28" height="6" rx="3" class="f-teal"/><rect x="530" y="420" width="54" height="6" rx="3" class="f-amber"/>
+    <rect x="506" y="432" width="14" height="6" rx="3" class="f-verm"/><rect x="526" y="432" width="86" height="6" rx="3" class="f-star" opacity=".8"/>
+    <rect x="506" y="444" width="62" height="6" rx="3" class="f-teal"/><rect x="574" y="444" width="40" height="6" rx="3" class="f-uil"/>
+    <rect x="496" y="456" width="44" height="6" rx="3" class="f-amber"/>
+    <rect x="486" y="478" width="46" height="18" rx="9" class="f-ui3"/>
+    <circle cx="498" cy="487" r="3" class="f-ink2 a-dot"/><circle cx="509" cy="487" r="3" class="f-ink2 a-dot" style="animation-delay:.18s"/><circle cx="520" cy="487" r="3" class="f-ink2 a-dot" style="animation-delay:.36s"/>
+    <rect x="484" y="502" width="200" height="20" rx="10" class="f-card s-uil" stroke-width="1.5"/>
+    <rect x="494" y="509" width="50" height="6" rx="3" class="f-ink2" opacity=".6"/>
+    <rect x="548" y="506" width="2.6" height="12" rx="1" class="f-verm a-blink"/>
+    <!-- reading panel -->
+    <rect x="692" y="324" width="94" height="204" class="f-ui1"/>
+    <rect x="700" y="334" width="78" height="104" rx="3" class="f-paper"/>
+    <rect x="706" y="344" width="62" height="3" rx="1.5" class="f-uil"/><rect x="706" y="352" width="54" height="3" rx="1.5" class="f-uil"/><rect x="706" y="360" width="64" height="3" rx="1.5" class="f-uil"/><rect x="706" y="368" width="58" height="3" rx="1.5" class="f-uil"/><rect x="706" y="376" width="46" height="3" rx="1.5" class="f-uil"/><rect x="706" y="384" width="62" height="3" rx="1.5" class="f-uil"/><rect x="706" y="392" width="60" height="3" rx="1.5" class="f-uil"/><rect x="706" y="400" width="50" height="3" rx="1.5" class="f-uil"/><rect x="706" y="408" width="64" height="3" rx="1.5" class="f-uil"/><rect x="706" y="416" width="40" height="3" rx="1.5" class="f-uil"/><rect x="706" y="424" width="56" height="3" rx="1.5" class="f-uil"/>
+    <rect x="704" y="357" width="54" height="7" rx="1" class="f-amber" opacity=".5"/><rect x="704" y="389" width="46" height="7" rx="1" class="f-teal" opacity=".45"/>
+    <path d="M754 364C770 400 744 420 740 448" class="nf s-lav" stroke-width="1.6" stroke-dasharray="3 3"/>
+    <rect x="700" y="448" width="78" height="70" rx="6" class="f-lav-soft"/>
+    <rect x="708" y="458" width="40" height="5" rx="2.5" class="f-lav"/><rect x="708" y="470" width="60" height="4" rx="2" class="f-lav" opacity=".55"/><rect x="708" y="480" width="52" height="4" rx="2" class="f-lav" opacity=".55"/><rect x="708" y="490" width="58" height="4" rx="2" class="f-lav" opacity=".55"/>
+  </g>
+  <rect x="394" y="306" width="392" height="222" rx="6" class="nf o2"/>
+</g>
+<!-- books and a lamp -->
+<g transform="translate(20 0)">
+  <path d="M836 560L790 548L950 548L936 560z" class="f-glow a-lamp"/>
+  <path d="M868 410L788 556L948 556L900 404z" class="f-glow a-lamp"/>
+  <rect x="808" y="534" width="128" height="20" rx="4" class="f-teal o2"/><rect x="816" y="516" width="112" height="18" rx="4" class="f-verm o2"/><rect x="810" y="498" width="120" height="18" rx="4" class="f-lav o2"/>
+  <path d="M822 534v20M830 516v18M824 498v18" class="nf s-out" stroke-width="2" opacity=".4"/>
+  <path d="M906 498l14-74l-38-24" class="nf s-out" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="920" cy="424" r="5" class="f-amber o2"/>
+  <rect x="892" y="490" width="30" height="10" rx="4" class="f-out"/>
+  <path d="M846 392l38-24l18 30l-46 18z" class="f-amber o2"/>
+  <path d="M858 416q8 10 18 4" class="nf" stroke="#fff6dd" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- a bookcase beside the desk, a tall plant on it, a print on the wall -->
+<g>
+  <ellipse cx="1078" cy="704" rx="112" ry="6" class="f-shadow"/>
+  <rect x="984" y="470" width="188" height="234" rx="8" class="f-desk o"/>
+  <rect x="976" y="458" width="204" height="16" rx="5" class="f-desk3 o"/>
+  <rect x="1000" y="490" width="156" height="94" rx="6" class="f-desk2 o2"/>
+  <rect x="1000" y="600" width="156" height="92" rx="6" class="f-desk2 o2"/>
+  <rect x="1008" y="512" width="14" height="72" rx="2" class="f-teal o2"/><path d="M1010 524h10" class="nf s-out" stroke-width="2" opacity=".35"/><rect x="1024" y="504" width="12" height="80" rx="2" class="f-amber o2"/><path d="M1026 516h8" class="nf s-out" stroke-width="2" opacity=".35"/><rect x="1038" y="520" width="16" height="64" rx="2" class="f-verm o2"/><path d="M1040 532h12" class="nf s-out" stroke-width="2" opacity=".35"/><rect x="1056" y="508" width="12" height="76" rx="2" class="f-lav o2"/><path d="M1058 520h8" class="nf s-out" stroke-width="2" opacity=".35"/><rect x="1070" y="526" width="15" height="58" rx="2" class="f-card o2"/><path d="M1072 538h11" class="nf s-out" stroke-width="2" opacity=".35"/>
+  <rect x="1098" y="568" width="52" height="14" rx="3" class="f-amber o2"/><rect x="1102" y="554" width="46" height="14" rx="3" class="f-teal o2"/><rect x="1100" y="540" width="50" height="14" rx="3" class="f-verm o2"/>
+  <path d="M1116 540q10-8 20 0" class="nf s-out" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="1126" cy="522" r="12" class="f-teal-soft o2"/><path d="M1114 522h24M1126 510q-7 12 0 24" class="nf s-out" stroke-width="1.6" opacity=".45"/>
+  <rect x="1010" y="628" width="62" height="64" rx="5" class="f-paper o2"/><rect x="1026" y="642" width="30" height="9" rx="3" class="f-uil"/><rect x="1031" y="668" width="20" height="7" rx="3.5" class="f-desk2"/>
+  <rect x="1084" y="614" width="16" height="78" rx="3" class="f-lav o2"/><rect x="1088" y="626" width="8" height="14" rx="2" class="f-card"/><rect x="1102" y="614" width="16" height="78" rx="3" class="f-amber o2"/><rect x="1106" y="626" width="8" height="14" rx="2" class="f-card"/><rect x="1120" y="614" width="16" height="78" rx="3" class="f-teal o2"/><rect x="1124" y="626" width="8" height="14" rx="2" class="f-card"/>
+  <g transform="translate(1032 412) scale(1.18) translate(-1032 -412)">
+  <path d="M1032 412V356" class="nf s-out" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <g transform="translate(1028 384) rotate(-70)"><path d="M0 0q18 -26 0 -52q-18 26 0 52z" class="f-plant o2"/><path d="M0 -3V-44" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g><g transform="translate(1036 388) rotate(70)"><path d="M0 0q18 -25 0 -50q-18 25 0 50z" class="f-plant o2"/><path d="M0 -3V-42" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g>
+  <g transform="translate(1030 396) rotate(-54)"><path d="M0 0q20 -29 0 -58q-20 29 0 58z" class="f-plant2 o2"/><path d="M0 -3V-50" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g><g transform="translate(1034 394) rotate(52)"><path d="M0 0q20 -29 0 -58q-20 29 0 58z" class="f-plant o2"/><path d="M0 -3V-50" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g>
+  <g transform="translate(1030 404) rotate(-32)"><path d="M0 0q22 -31 0 -62q-22 31 0 62z" class="f-plant2 o2"/><path d="M0 -3V-54" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g><g transform="translate(1034 404) rotate(30)"><path d="M0 0q22 -32 0 -64q-22 32 0 64z" class="f-plant2 o2"/><path d="M0 -3V-56" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g>
+  <g transform="translate(1030 366) rotate(-24)"><path d="M0 0q20 -28 0 -56q-20 28 0 56z" class="f-plant o2"/><path d="M0 -3V-48" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g><g transform="translate(1034 362) rotate(22)"><path d="M0 0q20 -26 0 -52q-20 26 0 52z" class="f-plant2 o2"/><path d="M0 -3V-44" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g>
+  <g transform="translate(1032 410) rotate(-6)"><path d="M0 0q24 -36 0 -72q-24 36 0 72z" class="f-plant o2"/><path d="M0 -3V-64" class="nf s-out" stroke-width="1.6" stroke-linecap="round" opacity=".3"/></g>
+  </g>
+  <path d="M1008 416h48l-6 42h-36z" class="f-amber o2"/>
+  <rect x="1002" y="408" width="60" height="11" rx="4" class="f-amber o2"/>
+  <path d="M1116 292L1134 276L1152 292" class="nf s-out" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1134" cy="276" r="2.6" class="f-out"/>
+  <rect x="1098" y="292" width="72" height="88" rx="4" class="f-frame o2"/><rect x="1106" y="300" width="56" height="72" rx="2" class="f-paper"/>
+  <circle cx="1146" cy="318" r="7" class="f-amber"/>
+  <path d="M1106 362l16-24l10 12l12-18l18 30z" class="f-teal" opacity=".75"/>
+  <path d="M1106 372v-8q14-8 28-2q14 6 28-2v12z" class="f-plant" opacity=".8"/>
+</g>
+<text x="48" y="168" class="t ink" font-size="104" font-weight="800" letter-spacing="-4">Renz</text>
+<text x="52" y="220" class="t ink2" font-size="23" font-weight="650">Full Stack Developer | Web Developer</text>
+<g class="sway" style="transform-origin:76px 255.60000000000002px;animation-delay:0s">
+      <rect x="23" y="267.6" width="110" height="100" rx="10" class="f-shadow"/>
+      <rect x="21" y="263.6" width="110" height="100" rx="10" class="card"/>
+      <rect x="17" y="259.6" width="118" height="108" rx="13" class="glowc" style="animation-delay:0s"/>
+      <rect x="31" y="274.6" width="90" height="6" rx="3" class="f-amber"/>
+      <svg x="31" y="288.6" width="28" height="28" viewBox="0 0 32 32"><path d="M7 3h13l6 6v20H7z" class="f-paper o2"/><path d="M20 3v6h6" class="nf o2"/><path d="M11 14h11M11 19h11M11 24h7" class="nf s-uil" stroke-width="2" stroke-linecap="round"/><rect x="10" y="12" width="9" height="4" rx="1" class="f-amber" opacity=".6"/></svg>
+      <text x="31" y="335.6" class="t ink" font-size="13.5" font-weight="800">Laravel apps</text>
+      <text x="31" y="352.6" class="m ink2" font-size="10.5" font-weight="600">build · improve</text>
+      <rect x="70" y="245.60000000000002" width="12" height="27" rx="3" class="f-desk3 o2"/>
+    </g><g class="sway" style="transform-origin:192px 268.1px;animation-delay:-1.6s">
+      <rect x="139" y="280.1" width="110" height="100" rx="10" class="f-shadow"/>
+      <rect x="137" y="276.1" width="110" height="100" rx="10" class="card"/>
+      <rect x="133" y="272.1" width="118" height="108" rx="13" class="glowc" style="animation-delay:3s"/>
+      <rect x="147" y="287.1" width="90" height="6" rx="3" class="f-teal"/>
+      <svg x="147" y="301.1" width="28" height="28" viewBox="0 0 32 32"><path d="M10 5v22M10 12c0 7 12 4 12 12" class="nf s-out" stroke-width="2.6" stroke-linecap="round"/><circle cx="10" cy="5" r="3.4" class="f-card o2"/><circle cx="10" cy="27" r="3.4" class="f-card o2"/><circle cx="22" cy="24" r="3.4" class="f-teal o2"/></svg>
+      <text x="147" y="348.1" class="t ink" font-size="11.5" font-weight="800">React / Next.js</text>
+      <text x="147" y="365.1" class="m ink2" font-size="10.5" font-weight="600">learn · create</text>
+      <rect x="186" y="258.1" width="12" height="27" rx="3" class="f-desk3 o2"/>
+    </g><g class="sway" style="transform-origin:308px 269px;animation-delay:-3.1s">
+      <rect x="255" y="281" width="110" height="100" rx="10" class="f-shadow"/>
+      <rect x="253" y="277" width="110" height="100" rx="10" class="card"/>
+      <rect x="249" y="273" width="118" height="108" rx="13" class="glowc" style="animation-delay:6s"/>
+      <rect x="263" y="288" width="90" height="6" rx="3" class="f-verm"/>
+      <svg x="263" y="302" width="28" height="28" viewBox="0 0 32 32"><path d="M3 6h18v12H11l-5 4v-4H3z" class="f-card o2"/><path d="M13 14h16v11h-3v4l-5-4h-8z" class="f-verm o2"/><path d="M7 11h10" class="nf s-uil" stroke-width="2" stroke-linecap="round"/></svg>
+      <text x="263" y="349" class="t ink" font-size="13.5" font-weight="800">AI integration</text>
+      <text x="263" y="366" class="m ink2" font-size="10.5" font-weight="600">learn · create</text>
+      <rect x="302" y="259" width="12" height="27" rx="3" class="f-desk3 o2"/>
+    </g><g class="sway" style="transform-origin:424px 258.3px;animation-delay:-4.4s">
+      <rect x="371" y="270.3" width="110" height="116" rx="10" class="f-shadow"/>
+      <rect x="369" y="266.3" width="110" height="116" rx="10" class="card"/>
+      <rect x="365" y="262.3" width="118" height="124" rx="13" class="glowc" style="animation-delay:9s"/>
+      <rect x="379" y="277.3" width="90" height="6" rx="3" class="f-lav"/>
+      <svg x="379" y="291.3" width="28" height="28" viewBox="0 0 32 32"><path d="M6 4h18a2 2 0 0 1 2 2v22H8a2 2 0 0 1-2-2z" class="f-lav o2"/><path d="M10 4v24" class="nf o2"/><path d="M20 10a5 5 0 1 0 3 8a4 4 0 0 1-3-8z" class="f-star o2"/></svg>
+      <text x="379" y="338.3" class="t ink" font-size="13.5" font-weight="800">Docker</text>
+      <text x="379" y="354.3" class="t ink" font-size="13.5" font-weight="800">DevOps</text>
+      <text x="379" y="371.3" class="m ink2" font-size="9" font-weight="600">ship · automate</text>
+      <rect x="418" y="248.3" width="12" height="27" rx="3" class="f-desk3 o2"/>
+    </g>
+</g>
+<rect x="2" y="2" width="1196" height="756" rx="30" fill="none" class="s-out" stroke-width="3" style="stroke:var(--edge)"/>
+</svg>
