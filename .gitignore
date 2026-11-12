@@ -1,3 +1,4 @@
 .taste-skill/
 __pycache__/
 *.pyc
+node_modules/

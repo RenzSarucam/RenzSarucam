@@ -1,15 +1,15 @@
 <a href="https://renzcarljansensarucam.vercel.app/"><picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/banner-realistic-dark.png">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/banner-realistic-light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-animated-dark.svg">
-  <img src="assets/banner-animated-light.svg" width="100%" alt="Renz: Full Stack Developer | Web Developer. A realistic workspace with a Laravel monitor, web app tablet, project notes, books, plants, typing code, an active tablet, moving clock hands, and gently rising coffee steam.">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/banner-realistic-dark.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/banner-realistic-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/banner-animated-dark.gif">
+  <img src="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/banner-animated-light.gif" width="100%" alt="Renz: Full Stack Developer | Web Developer. A realistic workspace with a Laravel monitor, web app tablet, project notes, books, plants, typing code, an active tablet, moving clock hands, and gently rising coffee steam.">
 </picture></a>
 
 <a href="https://github.com/RenzSarucam?tab=repositories"><picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/ecosystem-realistic-dark.png">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/ecosystem-realistic-light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ecosystem-animated-dark.svg">
-  <img src="assets/ecosystem-animated-light.svg" width="100%" alt="Renz's realistic ecosystem with animated laptop code, AI nodes, ticking clock hands, build stages, research review, tablet activity, reading highlights, terminal output, and workflow packets.">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-realistic-dark.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-realistic-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-animated-dark.gif">
+  <img src="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-animated-light.gif" width="100%" alt="Renz's realistic ecosystem with animated laptop code, AI nodes, ticking clock hands, build stages, research review, tablet activity, reading highlights, terminal output, and workflow packets.">
 </picture></a>
 
 <p align="center"><a href="https://renzcarljansensarucam.vercel.app/">Portfolio</a> &middot; <a href="mailto:renzcarljansen@gmail.com">renzcarljansen@gmail.com</a> &middot; <a href="https://www.linkedin.com/in/renz-carljansen-sarucam-195897314/">LinkedIn</a></p>

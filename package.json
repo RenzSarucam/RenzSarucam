@@ -1,0 +1,19 @@
+{
+  "name": "renzsarucam",
+  "version": "1.0.0",
+  "description": "Animated GitHub profile artwork and local preview for Renz Sarucam.",
+  "scripts": {
+    "build:svg": "node scripts/animate-profile.mjs",
+    "build:gif": "node scripts/export-profile-gifs.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenzSarucam/RenzSarucam.git"
+  },
+  "type": "commonjs",
+  "private": true,
+  "devDependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "playwright-core": "^1.65.0"
+  }
+}

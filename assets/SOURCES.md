@@ -1,12 +1,18 @@
+# GitHub-compatible animation exports
+
+The README and local preview use `banner-animated-{light,dark}.gif` and `ecosystem-animated-{light,dark}.gif`. README `<source>` and `<img>` URLs point directly to raw.githubusercontent.com because GitHub profile rendering does not rewrite relative `<source srcset>` paths. Static PNG reduced-motion fallbacks use absolute URLs too.
+
+The GIFs render the existing SVG animation timelines at 1100px wide, 6 frames per second, with a 12-second repeating loop. The SVG artwork remains the editable source. Run `npm ci`, `npm run build:svg`, then `npm run build:gif` to regenerate; Chrome/Chromium is required (set `CHROME_PATH` if necessary). Rendering uses Playwright Core and FFmpeg. Intermediate frames stay in the ignored `.taste-skill/` directory.
+
 # Animated profile artwork
 
-The README now uses self-contained `banner-animated-{light,dark}.svg` and `ecosystem-animated-{light,dark}.svg` files. Each embeds the corresponding unchanged realistic PNG and adds native SVG/CSS motion: typing code, a blinking cursor, subtle coffee steam, active tablets with line-clipped highlights and inset button feedback, moving hour/minute/second hands on both clocks, laptop code activity, AI node pulses, sequential DevOps stages, research review highlights (the original document check remains unchanged), notebook highlights clipped to the original angled marks (without extra arrows or lines), terminal output, build progress, and workflow packets. Clock faces are reconstructed locally over the photographed dial; the original casing and surrounding artwork remain. The second hands tick once per second and complete a revolution in 60 seconds. There are no scripts, remote image dependencies, or external fonts inside the SVGs.
+The editable animation sources are self-contained `banner-animated-{light,dark}.svg` and `ecosystem-animated-{light,dark}.svg` files. Each embeds the corresponding unchanged realistic PNG and adds native SVG/CSS motion: typing code, a blinking cursor, subtle coffee steam, active tablets with line-clipped highlights and inset button feedback, moving hour/minute/second hands on both clocks, laptop code activity, AI node pulses, sequential DevOps stages, research review highlights (the original document check remains unchanged), notebook highlights clipped to the original angled marks (without extra arrows or lines), terminal output, build progress, and workflow packets. Clock faces are reconstructed locally over the photographed dial; the original casing and surrounding artwork remain. The second hands tick once per second and complete a revolution in 60 seconds. There are no scripts, remote image dependencies, or external fonts inside the SVGs.
 
 Regenerate all four files with `node scripts/animate-profile.mjs`. Keep the realistic PNG files as source artwork and static reduced-motion fallbacks. The HTML preview has a Pause/Play animation control. Native SVG animation also respects `prefers-reduced-motion`.
 
 # Current realistic artwork
 
-The README uses these project-local assets created with the built-in imagegen tool:
+The static source artwork consists of these project-local assets created with the built-in imagegen tool:
 
 - `banner-realistic-dark.png`
 - `banner-realistic-light.png`
