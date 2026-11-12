@@ -9,3 +9,4 @@ This repository contains Renz Sarucam's GitHub profile README and its local HTML
 - Preserve existing personal details and illustration attribution in `assets/SOURCES.md`.
 
 - Use absolute raw.githubusercontent.com asset URLs in README picture sources; keep local asset paths in preview.html. GitHub does not rewrite relative source srcset paths on profile pages.
+- Wrap each linked picture in a div HTML block in README.md. Inline anchor/picture markup can be split into paragraphs by GitHub Markdown, leaving source and image tags outside the picture. Verify the GitHub-rendered HTML keeps each image inside its picture.

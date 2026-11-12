@@ -1,6 +1,6 @@
 # GitHub-compatible animation exports
 
-The README and local preview use `banner-animated-{light,dark}.gif` and `ecosystem-animated-{light,dark}.gif`. README `<source>` and `<img>` URLs point directly to raw.githubusercontent.com because GitHub profile rendering does not rewrite relative `<source srcset>` paths. Static PNG reduced-motion fallbacks use absolute URLs too.
+The README and local preview use `banner-animated-{light,dark}.gif` and `ecosystem-animated-{light,dark}.gif`. README `<source>` and `<img>` URLs point directly to raw.githubusercontent.com because GitHub profile rendering does not rewrite relative `<source srcset>` paths. Static PNG reduced-motion fallbacks use absolute URLs too. Each linked picture is wrapped in a div HTML block so GitHub Markdown keeps the source and image elements inside the picture; an inline anchor/picture start was being split into separate paragraphs, producing empty themed pictures.
 
 The GIFs render the existing SVG animation timelines at 1100px wide, 6 frames per second, with a 12-second repeating loop. The SVG artwork remains the editable source. Run `npm ci`, `npm run build:svg`, then `npm run build:gif` to regenerate; Chrome/Chromium is required (set `CHROME_PATH` if necessary). Rendering uses Playwright Core and FFmpeg. Intermediate frames stay in the ignored `.taste-skill/` directory.
 
