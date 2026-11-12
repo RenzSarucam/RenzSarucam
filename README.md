@@ -47,7 +47,7 @@ I build enterprise web applications with Laravel, React, and Next.js. My current
 | Project | Description | Technologies |
 | --- | --- | --- |
 | **Opsora** | Systems Monitoring & Operations Dashboard | Next.js, Laravel, MySQL, Redis, Docker |
-| **Rentora** | Boarding House Management System | — |
+| **Rentora** | Boarding House Management System | TypeScript, JavaScript, PLpgSQL, Python, CSS, Shell, HTML |
 | **LiftIQ** | AI-Powered Personal Gym Coach | React Native, Expo, Laravel, MySQL |
 | **GTMS** | Gaisano Task Management System | React, TypeScript, Laravel, MySQL |
 
