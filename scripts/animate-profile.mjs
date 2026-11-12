@@ -14,7 +14,16 @@ function codeEditor(x, y, width, height, fontSize, lines) {
     styles += `.line${i}{transform-origin:${x + 9}px ${top}px;animation:type${i} 12s steps(${Math.max(line.length, 1)},end) infinite}@keyframes type${i}{0%,${start}%{transform:scaleX(0)}${finish}%,94%{transform:scaleX(1)}100%{transform:scaleX(0)}}`;
     content += `<text x="${x + 9}" y="${top + fontSize}" fill="${color}" clip-path="url(#line${i})">${escape(line)}</text>`;
   });
-  return { defs, styles, content: `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="5" fill="#0c1423"/><g font-family="Consolas,'Courier New',monospace" font-size="${fontSize}">${content}</g><rect class="cursor" x="${x + 10}" y="${y + height - 9}" width="${fontSize * .5}" height="${fontSize}" fill="#f2d596"/>` };
+  let cursor = `<rect class="cursor" x="${x + 10}" y="${y + height - 9}" width="${fontSize * .5}" height="${fontSize}" fill="#f2d596"/>`;
+  if (fontSize >= 12) {
+    // Keep the terminal caret beside the last typed line, inside the display.
+    // The old bottom-aligned 12px caret extended below the editor's lower edge.
+    const caretX = Math.min(x + width - 12, x + 12 + lines.at(-1)[0].length * fontSize * .6);
+    const caretY = y + 8 + row * (lines.length - 1);
+    styles += '.terminal-caret{animation:terminal-caret 12s steps(1,end) infinite}@keyframes terminal-caret{0%,52%,100%{opacity:0}53%,94%{opacity:1}}';
+    cursor = `<g class="terminal-caret"><rect class="cursor" x="${caretX}" y="${caretY}" width="2" height="${fontSize}" fill="#8dd6c6"/></g>`;
+  }
+  return { defs, styles, content: `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="5" fill="#0c1423"/><g font-family="Consolas,'Courier New',monospace" font-size="${fontSize}">${content}</g>${cursor}` };
 }
 
 function clock(cx, cy, radius) {

@@ -14,10 +14,14 @@ const executablePath = process.env.CHROME_PATH || [
 if (!executablePath) throw new Error('Set CHROME_PATH to Chrome or Chromium.');
 
 const fps = 6, seconds = 12, outputWidth = 1100;
+const kindArg = process.argv.indexOf('--kind');
+const selectedKind = kindArg >= 0 ? process.argv[kindArg + 1] : null;
+if (selectedKind && !['banner', 'ecosystem'].includes(selectedKind)) throw new Error('--kind must be banner or ecosystem');
 const browser = await chromium.launch({ executablePath, headless: true });
 try {
   for (const theme of ['dark', 'light']) {
     for (const kind of ['banner', 'ecosystem']) {
+      if (selectedKind && kind !== selectedKind) continue;
       const name = `${kind}-animated-${theme}`;
       const svg = fs.readFileSync(`assets/${name}.svg`, 'utf8');
       const [, width, height] = svg.match(/width="(\d+)" height="(\d+)"/);

@@ -44,3 +44,5 @@ The existing `banner1.png` is retained from this repository's earlier README.
 - [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), installed at `.agents/skills/ui-ux-pro-max`.
 
 Each skill includes its upstream license. Their guidance is applied within GitHub README constraints: preserve the requested illustration, consistent spacing, readable labels, theme variants, keyboard focus in the local preview, and reduced-motion support. Website-only templates and full-screen sections are not applicable to the README.
+
+The terminal caret is aligned beside the final typed line, appears after typing, and stays inside the editor; it does not extend onto the monitor bezel. Use `npm run build:gif -- --kind ecosystem` to regenerate only the ecosystem exports.
