@@ -46,3 +46,4 @@ The existing `banner1.png` is retained from this repository's earlier README.
 Each skill includes its upstream license. Their guidance is applied within GitHub README constraints: preserve the requested illustration, consistent spacing, readable labels, theme variants, keyboard focus in the local preview, and reduced-motion support. Website-only templates and full-screen sections are not applicable to the README.
 
 The terminal caret is aligned beside the final typed line, appears after typing, and stays inside the editor; it does not extend onto the monitor bezel. Use `npm run build:gif -- --kind ecosystem` to regenerate only the ecosystem exports.
+The terminal panel and build-progress line are constrained to the photographed display, above its bezel and stand.

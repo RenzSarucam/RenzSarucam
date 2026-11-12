@@ -14,8 +14,8 @@
 <picture>
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-realistic-dark.png">
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-realistic-light.png">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-animated-dark.gif?v=caret2">
-  <img src="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-animated-light.gif?v=caret2" width="100%" alt="Renz's realistic ecosystem with animated laptop code, AI nodes, ticking clock hands, build stages, research review, tablet activity, reading highlights, terminal output, and workflow packets.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-animated-dark.gif?v=terminal3">
+  <img src="https://raw.githubusercontent.com/RenzSarucam/RenzSarucam/main/assets/ecosystem-animated-light.gif?v=terminal3" width="100%" alt="Renz's realistic ecosystem with animated laptop code, AI nodes, ticking clock hands, build stages, research review, tablet activity, reading highlights, terminal output, and workflow packets.">
 </picture>
 </a>
 </div>

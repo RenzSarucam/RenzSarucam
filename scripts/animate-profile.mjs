@@ -133,7 +133,7 @@ for (const theme of ['dark', 'light']) {
         ['// Building something useful', '#7ac5b5'],
         ['$portfolio->deploy();', '#f1d7a5'],
       ])
-      : codeEditor(957, 551, 178, 159, 12, [
+      : codeEditor(957, 551, 178, 130, 12, [
         ['$ git status', '#e9bf77'],
         ['On branch main', '#d3e0ef'],
         ['$ npm run dev', '#7ac5b5'],
@@ -148,7 +148,7 @@ for (const theme of ['dark', 'light']) {
         + tabletActivity(true)
         + scan('M831 488 H885', -1, '#e4bd74', 2);
     } else {
-      effects = '<rect x="970" y="716" width="236" height="2" rx="1" fill="#24434b"/><rect class="progress" x="970" y="716" width="236" height="2" rx="1" fill="#72d9c4"/>' + ecosystemActivity();
+      effects = '<rect x="970" y="680" width="150" height="2" rx="1" fill="#24434b"/><rect class="progress" x="970" y="680" width="150" height="2" rx="1" fill="#72d9c4"/>' + ecosystemActivity();
     }
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
 <title id="title">Renz ${kind === 'banner' ? '- Full Stack Developer | Web Developer' : '- My Ecosystem'}</title>
@@ -160,7 +160,7 @@ ${editor.styles}
 @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
 .steam{animation:steam 4s ease-in-out infinite;opacity:0}.second{animation-delay:-2s}
 @keyframes steam{0%{opacity:0;transform:translateY(5px)}30%{opacity:.23}100%{opacity:0;transform:translateY(-17px)}}
-.progress{transform-origin:970px 716px;animation:build 12s ease-in-out infinite}
+.progress{transform-origin:970px 680px;animation:build 12s ease-in-out infinite}
 @keyframes build{0%,25%{transform:scaleX(.05)}80%,94%{transform:scaleX(1)}100%{transform:scaleX(.05)}}
 .hour-hand{animation:turn 43200s linear infinite}.minute-hand{animation:turn 3600s linear infinite}.second-hand{animation:turn 60s steps(60,end) infinite}
 @keyframes turn{to{transform:rotate(360deg)}}
