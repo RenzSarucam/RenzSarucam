@@ -35,8 +35,8 @@ I build enterprise web applications with Laravel, React, and Next.js. My current
 
 | Area | Technologies |
 | --- | --- |
-| Languages | HTML, CSS, JavaScript, TypeScript, PHP, Python, Java, C, C++ |
-| Frontend | React, Next.js, Vue, Vite, Tailwind CSS, Bootstrap |
+| Languages | HTML, CSS, JavaScript, TypeScript, PHP, Python, Java |
+| Frontend | React, React Native, Next.js, Vue, Vite, Tailwind CSS, Bootstrap |
 | Backend | Laravel, Node.js, Django, Firebase |
 | Databases | MySQL, PostgreSQL, MongoDB |
 | DevOps & Cloud | Docker, Linux, Bash, Git, GitHub Actions, Cloudflare |
@@ -50,10 +50,6 @@ I build enterprise web applications with Laravel, React, and Next.js. My current
 | **E-JO** | Enterprise Job Order Management | Laravel |
 | **[Portfolio Website](https://renzcarljansensarucam.vercel.app/)** | Personal Portfolio | Next.js |
 | **AI Assistant** | AI-powered Assistant | OpenAI API |
-
-### Currently learning
-
-React Native, Kubernetes, Artificial Intelligence, Cloud Computing, CI/CD Pipelines, and DevOps Automation.
 
 > Technology is not just about writing code. It's about solving real-world problems through innovation.
 
