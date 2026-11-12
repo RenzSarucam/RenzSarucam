@@ -160,7 +160,7 @@ ${editor.styles}
 @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
 .steam{animation:steam 4s ease-in-out infinite;opacity:0}.second{animation-delay:-2s}
 @keyframes steam{0%{opacity:0;transform:translateY(5px)}30%{opacity:.23}100%{opacity:0;transform:translateY(-17px)}}
-.progress{transform-origin:970px 680px;animation:build 12s ease-in-out infinite}
+.progress{transform-origin:970px ${kind === 'ecosystem' ? 680 : 716}px;animation:build 12s ease-in-out infinite}
 @keyframes build{0%,25%{transform:scaleX(.05)}80%,94%{transform:scaleX(1)}100%{transform:scaleX(.05)}}
 .hour-hand{animation:turn 43200s linear infinite}.minute-hand{animation:turn 3600s linear infinite}.second-hand{animation:turn 60s steps(60,end) infinite}
 @keyframes turn{to{transform:rotate(360deg)}}
