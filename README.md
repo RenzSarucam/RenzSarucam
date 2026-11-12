@@ -22,7 +22,7 @@
 
 <p align="center"><a href="https://renzcarljansensarucam.vercel.app/">Portfolio</a> &middot; <a href="mailto:renzcarljansen@gmail.com">renzcarljansen@gmail.com</a> &middot; <a href="https://www.linkedin.com/in/renz-carljansen-sarucam-195897314/">LinkedIn</a></p>
 
-<p align="center"><strong>Renz Carljansen Sarucam</strong><br>Research &amp; Development Engineer &middot; Full Stack Web Developer &middot; DevOps Engineer &middot; UI/UX Designer</p>
+<p align="center"><strong>Renz Carljansen Sarucam</strong><br>Full Stack Developer | Web Developer</p>
 
 <details>
 <summary>More about me, my stack, and my projects</summary>
