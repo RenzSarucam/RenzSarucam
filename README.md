@@ -46,10 +46,10 @@ I build enterprise web applications with Laravel, React, and Next.js. My current
 
 | Project | Description | Technologies |
 | --- | --- | --- |
-| **ReOrderPro** | Procurement Management System | Laravel, MySQL |
-| **E-JO** | Enterprise Job Order Management | Laravel |
-| **[Portfolio Website](https://renzcarljansensarucam.vercel.app/)** | Personal Portfolio | Next.js |
-| **AI Assistant** | AI-powered Assistant | OpenAI API |
+| **Opsora** | Systems Monitoring & Operations Dashboard | Next.js, Laravel, MySQL, Redis, Docker |
+| **Rentora** | Boarding House Management System | — |
+| **LiftIQ** | AI-Powered Personal Gym Coach | React Native, Expo, Laravel, MySQL |
+| **GTMS** | Gaisano Task Management System | React, TypeScript, Laravel, MySQL |
 
 > Technology is not just about writing code. It's about solving real-world problems through innovation.
 
